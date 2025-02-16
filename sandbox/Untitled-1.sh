@@ -33,8 +33,6 @@ python -m pipenv install dronekit pymavlink numpy
 
 python -m pipenv graph
 
-python -m pipenv shell
-
 python -m pipenv check
 
 # python -m pipenv run python3 - <<END

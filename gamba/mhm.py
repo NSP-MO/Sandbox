@@ -25,7 +25,7 @@ BUFFER_PCT = 0.005  # Tight 0.5% buffer
 EXCHANGE = ccxt.okx({
     'apiKey': "4c1029f9-6317-4c87-903f-3923f56de4d1",
     'secret': "B565C60ED402A2EA0DD41167F60E8CD6",
-    'password': "Step463656!",
+    'password': "",
     'enableRateLimit': True,
     'options': {'defaultType': 'swap'}
 })
