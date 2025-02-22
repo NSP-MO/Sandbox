@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install system dependencies
-sudo apt-get update
+sudo apt-get update && sudo apt upgrade -y
 sudo apt-get install -y \
     python3-pip \
     git \
@@ -24,16 +24,34 @@ sudo apt-get install -y \
     libxslt-dev \
     python3-pygame
 
-# Packages
-pip install dronekit pymavlink numpy
+# Clone ArduPilot repository
+git clone --recursive https://github.com/ArduPilot/ardupilot.git
 
-pip install pipenv
+cd ardupilot
 
-python -m pipenv install dronekit pymavlink numpy
+# Build ArduCopter
+Tools/environment_install/install-prereqs-ubuntu.sh -y
+source ~/.profile
 
-python -m pipenv graph
+./waf configure --board sitl
+./waf copter
+./waf 
+./waf clean
 
-python -m pipenv check
+sim_vehicle.py -v ArduCopter --map --console
+
+sim_vehicle.py -v ArduCopter -f quad --map --console
+
+# # Packages
+# pip install dronekit pymavlink numpy
+
+# pip install pipenv
+
+# python -m pipenv install dronekit pymavlink numpy
+
+# python -m pipenv graph
+
+# python -m pipenv check
 
 # python -m pipenv run python3 - <<END
 # # Python code, for example:
