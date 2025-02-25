@@ -27,7 +27,7 @@ app.get('/', async (req, res) => {
 app.post('/submit', async (req, res) => {
   const { name, address, region } = req.body;
   const id = generateID(region);
-  
+
   try {
     await pool.query(
       'INSERT INTO applicants (id, name, address, region) VALUES ($1, $2, $3, $4)',
@@ -51,7 +51,7 @@ app.post('/process', async (req, res) => {
 
     if (rows.length > 0) {
       await pool.query(
-        'UPDATE applicants SET status = 'verified' WHERE id = $1',
+        "UPDATE applicants SET status = 'verified' WHERE id = $1",
         [rows[0].id]
       );
     }
@@ -64,14 +64,14 @@ app.post('/process', async (req, res) => {
 
 app.post('/edit/:id', async (req, res) => {
   const { name, address, region } = req.body;
-  
+
   try {
     // Get current data
     const { rows } = await pool.query(
       'SELECT * FROM applicants WHERE id = $1',
       [req.params.id]
     );
-    
+
     if (rows.length === 0) {
       return res.status(404).send('Applicant not found');
     }
@@ -90,7 +90,7 @@ app.post('/edit/:id', async (req, res) => {
        WHERE id = $4`,
       [name, address, region, req.params.id]
     );
-    
+
     res.redirect('/');
   } catch (err) {
     console.error(err);
@@ -123,7 +123,7 @@ app.post('/undo/:id', async (req, res) => {
         [rows[0].id]
       );
     }
-    
+
     res.redirect('/');
   } catch (err) {
     console.error(err);

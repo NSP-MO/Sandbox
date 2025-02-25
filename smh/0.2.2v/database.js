@@ -3,8 +3,8 @@ const { Pool } = require('pg');
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'test_0.2.2v',
-  password: 'qwerty',
+  database: 'postgres',
+  password: '797985',
   port: 5432,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
 });
