@@ -7,9 +7,11 @@ const settings = {
 };
 
 const backgroundColor = "white";
-const colors = ["rgb(255, 99, 132)", "rgb(54, 162, 235)", 
-                "rgb(255, 206, 86)", "rgb(75, 192, 192)", 
-                "rgb(153, 102, 255)", "rgb(255, 159, 64)"];
+const colorMap = {
+  "Asia": "rgb(255, 0, 0)",     // Merah
+  "Europe": "rgb(255, 206, 86)", // Kuning
+  "Africa": "rgb(54, 162, 235)"   // Biru
+};
 
 class Circle {
   constructor(x, y, radius, label, color) {
@@ -39,24 +41,24 @@ class BubbleChart {
     this.width = width;
     this.height = height;
     this.circles = [];
-    this.paddingX = 120; // Menyeimbangkan ruang agar tidak terlalu sempit
-    this.paddingY = 140; 
+    console.log("Loaded Data:", data);
     this.prepareData(data);
   }
 
   prepareData(data) {
-    const priceMin = Math.min(...data.map(d => d.price));
-    const priceMax = Math.max(...data.map(d => d.price));
-    const cudaMin = Math.min(...data.map(d => d.cuda_cores));
-    const cudaMax = Math.max(...data.map(d => d.cuda_cores));
+    const incomeMin = Math.min(...data.map(d => d.income));
+    const incomeMax = Math.max(...data.map(d => d.income));
+    const lifespanMin = Math.min(...data.map(d => d.lifespan));
+    const lifespanMax = Math.max(...data.map(d => d.lifespan));
 
-    data.forEach((item, index) => {
-      let x = this.scale(item.price, priceMin, priceMax, 150, this.width - 150);
-      let y = this.scale(item.cuda_cores, cudaMin, cudaMax, this.height - 180, 120);
-      let radius = Math.sqrt(item.sales) * 0.15; // Ukuran bubble tetap besar
-      let color = colors[index % colors.length];
+    data.forEach((item) => {
+      let x = this.scale(item.income, incomeMin, incomeMax, 150, this.width - 150);
+      let y = this.scale(item.lifespan, lifespanMin, lifespanMax, this.height - 180, 120);
+      let radius = Math.sqrt(item.population) * 0.005; // Perbesar radius agar lebih terlihat
+      let color = colorMap[item.continent] || "gray"; // Default ke abu-abu jika tidak ditemukan
 
-      this.circles.push(new Circle(x, y, radius, item.gpu, color));
+      console.log(`Creating circle: ${item.country} at (${x}, ${y}) with radius ${radius}`);
+      this.circles.push(new Circle(x, y, radius, item.country, color));
     });
   }
 
@@ -80,14 +82,10 @@ class BubbleChart {
   drawAxis(context) {
     context.strokeStyle = "#000";
     context.lineWidth = 2;
-
-    // Garis sumbu X tetap di bawah
     context.beginPath();
     context.moveTo(100, this.height - 100);
     context.lineTo(this.width - 100, this.height - 100);
     context.stroke();
-
-    // Garis sumbu Y tetap di kiri
     context.beginPath();
     context.moveTo(100, this.height - 100);
     context.lineTo(100, 100);
@@ -98,22 +96,19 @@ class BubbleChart {
     context.font = "24px Arial";
     context.textAlign = "center";
     context.fillStyle = "#000";
-    context.fillText("Perbandingan Harga vs Performa (CUDA Cores) RTX 4000 Series", this.width / 2, 50);
+    context.fillText("Perbandingan Lifespan Terhadap Income di Berbagai Negara", this.width / 2, 50);
   }
 
   drawAxisLabels(context) {
     context.font = "20px Arial";
     context.fillStyle = "#000";
     context.textAlign = "center";
-
-    // Label sumbu X (Harga)
-    context.fillText("Harga (USD)", this.width / 2, this.height - 50);
+    context.fillText("Income", this.width / 2, this.height - 50);
     
-    // Label sumbu Y (CUDA Cores)
     context.save();
     context.translate(50, this.height / 2);
     context.rotate(-Math.PI / 2);
-    context.fillText("CUDA Cores", 0, 0);
+    context.fillText("Lifespan", 0, 0);
     context.restore();
   }
 }
@@ -127,16 +122,21 @@ async function loadCSV() {
           header: true,
           skipEmptyLines: true,
           complete: function (results) {
+            console.log("Parsed CSV Data:", results.data);
             resolve(results.data.map(row => ({
-              gpu: row.gpu,
-              price: parseFloat(row.price),
-              cuda_cores: parseFloat(row.cuda_cores),
-              sales: parseFloat(row.sales)
+              country: row.country,
+              income: parseFloat(row.income),
+              lifespan: parseFloat(row.lifespan),
+              population: parseFloat(row.population),
+              continent: row.continent // Ambil data benua
             })));
           }
         });
       })
-      .catch(error => reject(error));
+      .catch(error => {
+        console.error("Error loading CSV:", error);
+        reject(error);
+      });
   });
 }
 
