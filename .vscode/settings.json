@@ -57,7 +57,12 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
+<<<<<<< HEAD
     "unordered_map": "cpp",
     "iostream": "cpp"
+=======
+    "iostream": "cpp",
+    "new": "cpp"
+>>>>>>> 1cba60552d387ba36279ccd7e17a24d08a9f19e0
   }
 }
