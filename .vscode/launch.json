@@ -2,6 +2,8 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< HEAD
+=======
       "type": "java",
       "name": "MyProgram",
       "request": "launch",
@@ -16,14 +18,20 @@
       "projectName": "workspace_ef02cafc"
     },
     {
+>>>>>>> 1cba60552d387ba36279ccd7e17a24d08a9f19e0
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+=======
       "cwd": "c:/Users/Hp/Documents/workspace/workspace",
       "program": "c:/Users/Hp/Documents/workspace/workspace/build/Debug/outDebug",
+>>>>>>> 1cba60552d387ba36279ccd7e17a24d08a9f19e0
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,0 +1,19 @@
+{
+  "name": "canvas3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "^0.7.7",
+    "canvas-sketch-util": "^1.10.0",
+    "csv-parser": "^3.2.0",
+    "d3-dsv": "^3.0.1",
+    "papaparse": "^5.5.2"
+  }
+}
