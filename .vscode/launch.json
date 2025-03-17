@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MyProgram",
+      "request": "launch",
+      "mainClass": "MyProgram",
+      "projectName": "workspace_ef02cafc"
+    },
+    {
+      "type": "java",
       "name": "wbot",
       "request": "launch",
       "mainClass": "wbot",
