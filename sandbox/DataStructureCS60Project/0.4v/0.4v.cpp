@@ -80,11 +80,14 @@ public:
 
     void editApplication(const string& id, const string& newName, 
                          const string& newAddress, const string& newRegion) {
-        if (idMap.find(id) == idMap.end()) return;
+        if (idMap.find(id) == idMap.end()) {
+            cout << "Application with ID " << id << " not found.\n";
+            return;
+        }
 
         Applicant* app = idMap[id];
         
-        // Push to revision stack
+        // Push original application state to the revision stack before modifying
         Applicant* revision = new Applicant(*app);
         revision->next = revisionStackTop;
         revision->prev = nullptr;
@@ -100,10 +103,14 @@ public:
         idMap.erase(oldId);
         idMap[app->id] = app;
         saveToFile();
+        cout << "Application updated. New ID is " << app->id << ".\n";
     }
 
     void undoRevision(const string& id) {
-        if (idMap.find(id) == idMap.end() || !revisionStackTop) return;
+        if (idMap.find(id) == idMap.end() || !revisionStackTop) {
+            cout << "No revision available for application with ID " << id << ".\n";
+            return;
+        }
 
         Applicant* current = idMap[id];
         Applicant* revision = revisionStackTop;
@@ -117,6 +124,7 @@ public:
         
         delete revision;
         saveToFile();
+        cout << "Revision undone for application " << id << ".\n";
     }
 
     void sortByRegion() {
@@ -126,11 +134,12 @@ public:
             swapped = false;
             Applicant** ptr = &head;
             
-            while ((*ptr)->next) {
+            while ((*ptr) && (*ptr)->next) {
                 Applicant* a = *ptr;
                 Applicant* b = a->next;
                 
                 if (a->region > b->region) {
+                    // Swap nodes a and b
                     a->next = b->next;
                     b->prev = a->prev;
                     a->prev = b;
@@ -158,11 +167,12 @@ public:
             swapped = false;
             Applicant** ptr = &head;
             
-            while ((*ptr)->next) {
+            while ((*ptr) && (*ptr)->next) {
                 Applicant* a = *ptr;
                 Applicant* b = a->next;
                 
                 if (a->submissionTime > b->submissionTime) {
+                    // Swap nodes a and b
                     a->next = b->next;
                     b->prev = a->prev;
                     a->prev = b;

@@ -1,11 +1,16 @@
 section .data
     s dd 3              ; Side length (modify this value as needed)
     buffer db 10 dup(0) ; Buffer to store the result string
+    msg db "Surface area: ", 0
+
+section .bss
 
 section .text
-    global _start
+    extern printf
+    extern exit
+    global main
 
-_start:
+main:
     ; Calculate surface area (6 * s^2)
     mov eax, [s]        ; Load side length into EAX
     imul eax, eax       ; EAX = s^2
@@ -25,19 +30,13 @@ convert_loop:
     test eax, eax       ; Check if quotient is zero
     jnz convert_loop    ; Continue if not zero
 
-    ; Prepare system call arguments
-    inc edi             ; Adjust to first valid digit
-    mov edx, buffer + 10
-    sub edx, edi        ; Calculate string length
-    mov esi, edi        ; Point to start of string
-
     ; Print result
-    mov eax, 4          ; sys_write
-    mov ebx, 1          ; stdout
-    mov ecx, esi        ; String address
-    int 0x80
+    inc edi             ; Adjust to first valid digit
+    mov rsi, edi        ; Point to start of string
+    mov rdi, msg        ; Load message string
+    xor eax, eax        ; Clear EAX for printf
+    call printf         ; Call printf
 
     ; Exit program
-    mov eax, 1          ; sys_exit
-    xor ebx, ebx        ; Exit code 0
-    int 0x80
+    xor edi, edi        ; Exit code 0
+    call exit
