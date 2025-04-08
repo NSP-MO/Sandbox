@@ -66,22 +66,20 @@ public:
         saveToFile();
     }
 
-    void processVerification() {
-        if (!head) return;
-
-        Applicant* toProcess = head;
-        head = head->next;
-        if (head) head->prev = nullptr;
-        else tail = nullptr;
-
+    void processVerification(const string& id) {
+        if (idMap.find(id) == idMap.end()) {
+            cout << "Application with ID " << id << " not found in verification queue.\n";
+            return;
+        }
+        Applicant* toProcess = idMap[id];
         toProcess->status = "verified";
-        idMap.erase(toProcess->id);
-        delete toProcess;
+        idMap.erase(id);
         saveToFile();
+        cout << "Application " << id << " has been verified.\n";
     }
 
     void editApplication(const string& id, const string& newName, 
-                       const string& newAddress, const string& newRegion) {
+                         const string& newAddress, const string& newRegion) {
         if (idMap.find(id) == idMap.end()) return;
 
         Applicant* app = idMap[id];
@@ -89,13 +87,18 @@ public:
         // Push to revision stack
         Applicant* revision = new Applicant(*app);
         revision->next = revisionStackTop;
+        revision->prev = nullptr;
         revisionStackTop = revision;
 
-        // Update application
+        // Update application and regenerate ID if region changes
+        string oldId = app->id;
         app->name = newName;
         app->address = newAddress;
         app->region = newRegion;
         app->status = "revision";
+        app->id = generateId(newRegion);
+        idMap.erase(oldId);
+        idMap[app->id] = app;
         saveToFile();
     }
 
@@ -275,7 +278,9 @@ int main() {
                 break;
                 
             case 2:
-                system.processVerification();
+                cout << "Enter the application ID to verify: ";
+                getline(cin, id);
+                system.processVerification(id);
                 break;
                 
             case 3:
