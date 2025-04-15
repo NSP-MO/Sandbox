@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Analisis Data Video Game Sales</title>
+  <!-- Sertakan CDN Plotly dan d3 -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+      margin: 20px;
+    }
+    #barChart {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>Top 10 Video Game Berdasarkan Penjualan Global</h2>
+  <!-- Container untuk grafik -->
+  <div id="barChart"></div>
+
+  <script>
+    // Memuat file CSV vgsales.csv (pastikan file berada di direktori yang sama)
+    d3.csv("vgsales.csv").then(function(data) {
+      // Konversi nilai Global_Sales ke numerik
+      data.forEach(function(d) {
+        d.Global_Sales = +d.Global_Sales;
+      });
+
+      // Urutkan data berdasarkan Global_Sales secara menurun
+      data.sort((a, b) => b.Global_Sales - a.Global_Sales);
+      // Ambil 10 video game teratas
+      var topData = data.slice(0, 10);
+
+      // Siapkan trace untuk bar chart
+      var trace = {
+        x: topData.map(d => d.Name),
+        y: topData.map(d => d.Global_Sales),
+        type: 'bar',
+        marker: {
+          color: 'rgba(55, 128, 191, 0.7)',
+          line: {
+            color: 'rgba(55, 128, 191, 1.0)',
+            width: 2
+          }
+        }
+      };
+
+      // Layout konfigurasi grafik
+      var layout = {
+        title: 'Top 10 Video Game by Global Sales',
+        xaxis: {
+          title: 'Nama Game',
+          tickangle: -45
+        },
+        yaxis: {
+          title: 'Global Sales (Jutaan Unit)'
+        },
+        margin: { t: 50, r: 30, b: 150, l: 50 },
+        font: { size: 14 }
+      };
+
+      // Konfigurasi tambahan agar grafik responsif
+      var config = { responsive: true };
+
+      // Render grafik menggunakan Plotly
+      Plotly.newPlot('barChart', [trace], layout, config);
+    }).catch(function(error){
+      console.error("Error memuat data CSV:", error);
+    });
+  </script>
+</body>
+</html>
+
