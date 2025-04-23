@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Persentase Kemiskinan Indonesia 2024</title>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #222;
+            color: #fff;
+        }
+        #container {
+            width: 100vw;
+            height: 100vh;
+            min-width: 0;
+            min-height: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        // Data persentase kemiskinan dari CSV
+        const povertyData = {
+            'id-ac': 14.23, // Aceh
+            'id-su': 7.99,  // Sumatera Utara
+            'id-sb': 5.97,  // Sumatera Barat
+            'id-ri': 6.67,  // Riau
+            'id-ja': 7.1,   // Jambi
+            'id-sl': 10.97, // Sumatera Selatan
+            'id-be': 13.56, // Bengkulu
+            'id-1024': 10.69, // Lampung
+            'id-bb': 4.55,  // Bangka Belitung
+            'id-kr': 5.37,  // Kepulauan Riau
+            'id-jk': 4.3,   // DKI Jakarta
+            'id-jr': 7.46,  // Jawa Barat
+            'id-jt': 10.47, // Jawa Tengah
+            'id-yo': 10.83, // DI Yogyakarta
+            'id-ji': 9.79,  // Jawa Timur
+            'id-bt': 5.84,  // Banten
+            'id-ba': 4,     // Bali
+            'id-nb': 12.91, // Nusa Tenggara Barat
+            'id-nt': 19.48, // Nusa Tenggara Timur
+            'id-kb': 6.32,  // Kalimantan Barat
+            'id-kt': 5.17,  // Kalimantan Tengah
+            'id-ks': 4.11,  // Kalimantan Selatan
+            'id-ki': 5.78,  // Kalimantan Timur
+            'id-ku': 6.32,  // Kalimantan Utara
+            'id-sw': 7.25,  // Sulawesi Barat
+            'id-st': 11.77, // Sulawesi Tengah
+            'id-se': 8.06,  // Sulawesi Tenggara
+            'id-sg': 11.21, // Sulawesi Tenggara
+            'id-go': 14.57, // Gorontalo
+            'id-sr': 11.21, // Sulawesi Barat
+            'id-ma': 16.05, // Maluku
+            'id-la': 6.32,  // Maluku Utara
+            'id-ib': 21.66, // Irian Jaya Barat (Papua Barat)
+            'id-pa': 17.26, // Papua
+            'id-id': 9.03   // Indonesia (nasional)
+        };
+
+        Highcharts.mapChart('container', {
+            chart: {
+                map: 'countries/id/id-all',
+                backgroundColor: '#222'
+            },
+            title: {
+                text: 'Persentase Penduduk Miskin Indonesia 2024',
+                style: {
+                    fontSize: '18px',
+                    color: '#fff'
+                }
+            },
+            colorAxis: {
+                min: 0,
+                max: 30,
+                stops: [
+                    [0, '#90EE90'],
+                    [0.5, '#FFD700'],
+                    [1, '#FF4500']
+                ]
+            },
+            tooltip: {
+                backgroundColor: '#333',
+                style: { color: '#fff' },
+                headerFormat: '<span style="font-size:14px">{point.key}</span><br/>',
+                pointFormat: 'Persentase: <b>{point.value}%</b>'
+            },
+            series: [{
+                data: Object.entries(povertyData).map(([key, value]) => ({
+                    'hc-key': key,
+                    value: value
+                })),
+                name: 'Persentase Kemiskinan',
+                states: {
+                    hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.name}',
+                    style: { color: '#fff', textOutline: '1px #000' }
+                }
+            }],
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+            legend: {
+                title: {
+                    text: 'Skala Persentase (%)',
+                    style: {
+                        fontWeight: 'bold',
+                        color: '#fff'
+                    }
+                },
+                align: 'right',
+                verticalAlign: 'middle',
+                backgroundColor: '#222',
+                itemStyle: { color: '#fff' }
+            }
+        });
+    </script>
+</body>
+</html>
