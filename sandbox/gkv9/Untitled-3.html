@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Analisis Data Video Game Sales</title>
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+      margin: 20px;
+    color : #ffffff;
+    }
+
+    #barChart {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>Top 10 Video Game Berdasarkan Penjualan Global</h2>
+
+  <div id="barChart"></div>
+
+  <script>
+    d3.csv("vgsales.csv").then(function(data) {
+      data.forEach(function(d) {
+        d.Global_Sales = +d.Global_Sales;
+      });
+
+      data.sort((a, b) => b.Global_Sales - a.Global_Sales);
+      var topData = data.slice(0, 10);
+
+      var trace = {
+        x: topData.map(d => d.Name),
+        y: topData.map(d => d.Global_Sales),
+        type: 'barplot',
+        marker: {
+          color: '#c88e00',
+          line: {
+            color: '#c88e00',
+            width: 10
+          }
+        }
+      };
+
+      var layout = {
+        title: 'Top 10 Video Game by Global Sales',
+        xaxis: {
+          title: 'Nama Game',
+          tickangle: -45
+        },
+        yaxis: {
+          title: 'Global Sales (Jutaan Unit)'
+        },
+        margin: { t: 50, r: 30, b: 150, l: 50 },
+        font: { size: 14 },
+        hoverlabel: {
+          bgcolor: '#313131',
+          font: {
+            color: '#181818'
+          }
+        },
+      };
+
+      var config = { responsive: true };
+
+      Plotly.newPlot('barChart', [trace], layout, config);
+    }).catch(function(error){
+      console.error("Error memuat data CSV:", error);
+    });
+  </script>
+</body>
+</html>
+

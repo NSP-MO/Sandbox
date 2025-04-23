@@ -1,0 +1,55 @@
+     1                                  section .data
+     2 00000000 456E74657220746865-         prompt      db "Enter the length of the cube's side: ", 0
+     2 00000009 206C656E677468206F-
+     2 00000012 662074686520637562-
+     2 0000001B 65277320736964653A-
+     2 00000024 2000               
+     3                                      promptLen   equ $-prompt
+     4 00000026 256C6600                    fmtIn       db "%lf", 0
+     5 0000002A 537572666163652061-         fmtOut      db "Surface area: %lf", 10, 0
+     5 00000033 7265613A20256C660A-
+     5 0000003C 00                 
+     6                                  
+     7                                  section .bss
+     8 00000000 <res 00000008>              side        resq 1
+     9 00000008 <res 00000008>              area        resq 1
+    10                                  
+    11                                  section .text
+    12                                      extern  printf, scanf
+    13                                      global  main
+    14                                  
+    15                                  main:
+    16                                      ; Print prompt
+    17                                      mov     rdi, prompt
+    17          ******************       error: instruction not supported in 16-bit mode
+    18 00000000 6631C0                      xor     eax, eax
+    19 00000003 E8(0000)                    call    printf
+    20                                  
+    21                                      ; Read input
+    22                                      mov     rdi, fmtIn
+    22          ******************       error: instruction not supported in 16-bit mode
+    23                                      mov     rsi, side
+    23          ******************       error: instruction not supported in 16-bit mode
+    24 00000006 6631C0                      xor     eax, eax
+    25 00000009 E8(0000)                    call    scanf
+    26                                  
+    27                                      ; Calculate area = 6 * side * side
+    28 0000000C F20F1006[0000]              movsd   xmm0, qword [side]      ; xmm0 = side
+    29 00000012 F20F10C8                    movsd   xmm1, xmm0              ; xmm1 = side
+    30 00000016 F20F59C1                    mulsd   xmm0, xmm1              ; xmm0 = side * side
+    31 0000001A F20F100E[3D00]              movsd   xmm1, qword [six]       ; xmm1 = 6.0
+    32 00000020 F20F59C1                    mulsd   xmm0, xmm1              ; xmm0 = 6 * side * side
+    33 00000024 F20F1106[0800]              movsd   qword [area], xmm0
+    34                                  
+    35                                      ; Print result
+    36                                      mov     rdi, fmtOut
+    36          ******************       error: instruction not supported in 16-bit mode
+    37 0000002A F20F1006[0800]              movsd   xmm0, qword [area]
+    38 00000030 E8(0000)                    call    printf
+    39                                  
+    40                                      ; Return 0
+    41 00000033 6631C0                      xor     eax, eax
+    42 00000036 C3                          ret
+    43                                  
+    44                                  section .data
+    45 0000003D 0000000000001840        six:    dq 6.0

@@ -1,0 +1,29 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit
+     5                                  extern printf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10 00000000 537572666163652061-         fmt db "Surface area = %d", 10, 0 ; format string for printf
+    10 00000009 726561203D2025640A-
+    10 00000012 00                 
+    11 00000013 02000000                    side dd 2                        ; example side length
+    12 00000017 00000000                    area dd 0                        ; to store the result
+    13                                  
+    14                                  segment code use32 class=code
+    15                                  start:
+    16 00000000 A1[13000000]                mov eax, [side]      ; eax = side
+    17 00000005 0FAFC0                      imul eax, eax        ; eax = side * side
+    18 00000008 6BC006                      imul eax, 6          ; eax = 6 * side * side
+    19 0000000B A3[17000000]                mov [area], eax      ; store result in area
+    20                                  
+    21 00000010 FF35[17000000]              push dword [area]    ; push area for printf
+    22 00000016 68[00000000]                push dword fmt       ; push format string
+    23 0000001B FF15[00000000]              call [printf]
+    24 00000021 83C408                      add esp, 8           ; clean up stack
+    25                                  
+    26 00000024 6A00                        push dword 0
+    27 00000026 FF15[00000000]              call [exit]

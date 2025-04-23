@@ -1,0 +1,1353 @@
+2025.04.09 12:49:45 INFO  Started: Metals version 1.5.2 in folders 'C:\Users\Hp\Documents\workspace\workspace' for client Visual Studio Code 1.99.1.
+2025.04.09 12:49:46 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:12 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:50:12 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Apr 09, 2025 12:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2025.04.09 12:50:12 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:50:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:16 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:50:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Apr 09, 2025 12:50:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Apr 09, 2025 12:50:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2025.04.09 12:50:17 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:50:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:18 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:19 INFO  Running List(C:\Users\Hp\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\Hp\Documents\workspace\workspace)
+2025.04.09 12:50:19 INFO  Attempting to connect to the build server...
+2025.04.09 12:50:19 INFO  Running BSP server List(C:\Users\Hp\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-envs.json, C:\Users\Hp\Documents\workspace\workspace)
+2025.04.09 12:50:19 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\workspace\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 12:50:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:34 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:34 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:34 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:36 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:36 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:36 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom.sha1
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom.sha1
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom.sha1
+2025.04.09 12:50:38 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:39 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.pom
+2025.04.09 12:50:40 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom.sha1
+2025.04.09 12:50:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:41 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom.sha1
+2025.04.09 12:50:41 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom.sha1
+2025.04.09 12:50:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom.sha1
+2025.04.09 12:50:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom.sha1
+2025.04.09 12:50:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.16/logback-parent-1.5.16.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:44 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom.sha1
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/interface/1.0.27/interface-1.0.27.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom.sha1
+2025.04.09 12:50:46 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:46 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom.sha1
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom
+2025.04.09 12:50:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:48 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:49 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:49 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.pom
+2025.04.09 12:50:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:52 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:53 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:53 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:54 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:54 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom.sha1
+2025.04.09 12:50:55 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom.sha1
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.6/util-position_2.12-1.10.6.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom.sha1
+2025.04.09 12:50:59 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom.sha1
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:50:58 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom.sha1
+2025.04.09 12:51:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:51:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:01 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:01 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:01 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:02 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:02 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:02 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom.sha1
+2025.04.09 12:51:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.pom
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.7/util-control_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.7/util-position_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.7/core-macros_2.12-1.10.7.jar
+2025.04.09 12:51:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.jar
+2025.04.09 12:51:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar
+2025.04.09 12:51:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar
+2025.04.09 12:51:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.7/zinc_2.12-1.10.7.jar
+2025.04.09 12:51:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.jar
+2025.04.09 12:51:05 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.7/zinc-classfile_2.12-1.10.7.jar
+2025.04.09 12:51:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.8/bloop-backend_2.12-2.0.8.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.7/collections_2.12-1.10.7.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.3/librarymanagement-ivy_2.12-1.10.3.jar
+2025.04.09 12:51:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.jar
+2025.04.09 12:51:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.2/scala-debug-adapter_2.12-4.2.2.jar
+2025.04.09 12:51:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.jar
+2025.04.09 12:51:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.3/io_2.12-1.10.3.jar
+2025.04.09 12:51:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18/jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.12.6/common_2.12-4.12.6.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.7/util-relation_2.12-1.10.7.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+33/com-microsoft-java-debug-core-0.34.0+33.jar
+2025.04.09 12:51:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.6/util-cache_2.12-1.10.6.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.7/zinc-apiinfo_2.12-1.10.7.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.7/zinc-classpath_2.12-1.10.7.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.21/jsch-0.2.21.jar
+2025.04.09 12:51:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.7/zinc-persist_2.12-1.10.7.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.7/zinc-persist-core-assembly-1.10.7.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.1/bloop-config_2.12-2.3.1.jar
+2025.04.09 12:51:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.jar
+2025.04.09 12:51:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.7/compiler-bridge_2.12-1.10.7.jar
+2025.04.09 12:51:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.jar
+2025.04.09 12:51:14 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:17 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.7/util-logging_2.12-1.10.7.jar
+2025.04.09 12:51:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.8/bloop-frontend_2.12-2.0.8.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.3/librarymanagement-core_2.12-1.10.3.jar
+2025.04.09 12:51:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar
+2025.04.09 12:51:19 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:19 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:19 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:20 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:20 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:20 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:20 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:20 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:21 ERROR Timeout waiting for 'build/initialize' response
+2025.04.09 12:51:21 WARN  Retrying connection to the build server scala-cli
+2025.04.09 12:51:21 INFO  Running BSP server List(C:\Users\Hp\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-envs.json, C:\Users\Hp\Documents\workspace\workspace)
+2025.04.09 12:51:21 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:21 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:21 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\workspace\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 12:51:21 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:21 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:22 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:22 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:22 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:51:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:25 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:25 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:25 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:51:25 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:27 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:27 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 09, 2025 12:51:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+2025.04.09 12:51:27 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:27 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:28 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:30 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:30 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:31 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:51:31 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:31 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.jar
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.jar
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.jar
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.jar
+2025.04.09 12:51:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.jar
+2025.04.09 12:51:34 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:35 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:35 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:35 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.7/zinc-core_2.12-1.10.7.jar
+2025.04.09 12:51:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.jar
+2025.04.09 12:51:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.8/bloop-shared_2.12-2.0.8.jar
+2025.04.09 12:51:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar
+2025.04.09 12:51:36 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar
+2025.04.09 12:51:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar
+2025.04.09 12:51:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.7/zinc-compile-core_2.12-1.10.7.jar
+2025.04.09 12:51:36 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2025.04.09 12:51:37 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar
+2025.04.09 12:51:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.12.6/parsers_2.12-4.12.6.jar
+2025.04.09 12:51:38 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:38 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:39 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:43 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:43 INFO  BSP server: Still downloading:
+2025.04.09 12:51:43 INFO  BSP server: https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.jar (94.60 %, 9928311 / 10494820)
+2025.04.09 12:51:43 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.jar (34.96 %, 3866624 / 11058817)
+2025.04.09 12:51:43 INFO  BSP server: 
+2025.04.09 12:51:44 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:44 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:44 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:51:44 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.12.6/trees_2.12-4.12.6.jar
+2025.04.09 12:51:45 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:45 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:46 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:46 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:51:50 INFO  BSP server: Still downloading:
+2025.04.09 12:51:50 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.jar (89.48 %, 9895936 / 11058817)
+2025.04.09 12:51:50 INFO  BSP server: 
+2025.04.09 12:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.27/interface-1.0.27.jar
+2025.04.09 12:51:50 INFO  BSP server: Starting compilation server
+2025.04.09 12:52:03 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:04 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:08 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:08 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:13 WARN  no build target for: C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala
+2025.04.09 12:52:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\workspace\sandbox\test.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 12:52:22 ERROR Timeout waiting for 'build/initialize' response
+2025.04.09 12:52:22 WARN  Retrying connection to the build server scala-cli
+2025.04.09 12:52:22 INFO  Running BSP server List(C:\Users\Hp\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-envs.json, C:\Users\Hp\Documents\workspace\workspace)
+2025.04.09 12:52:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\workspace\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 12:53:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.6.4/scala3-sbt-bridge-3.6.4.pom
+2025.04.09 12:53:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.6.4/scala3-sbt-bridge-3.6.4.pom
+2025.04.09 12:53:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.6.4/scala3-sbt-bridge-3.6.4.jar
+2025.04.09 12:53:22 ERROR Timeout waiting for 'build/initialize' response
+2025.04.09 12:53:22 WARN  Retrying connection to the build server scala-cli
+2025.04.09 12:53:22 INFO  Running BSP server List(C:\Users\Hp\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Hp\Documents\workspace\workspace\.scala-build\ide-envs.json, C:\Users\Hp\Documents\workspace\workspace)
+2025.04.09 12:53:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\workspace\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 12:54:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.6.4/scala3-sbt-bridge-3.6.4.jar
+2025.04.09 12:54:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.6.4/scala3-sbt-bridge-3.6.4.jar
+2025.04.09 12:54:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.6.4/scala3-library_3-3.6.4-sources.jar
+2025.04.09 12:54:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.6.4/scala3-library_3-3.6.4-sources.jar
+2025.04.09 12:54:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.04.09 12:54:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.04.09 12:54:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2025.04.09 12:54:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2025.04.09 12:54:22 INFO  time: Connected to build server in 4m2s
+2025.04.09 12:54:22 INFO  Connected to Build server: scala-cli v1.7.1
+2025.04.09 12:54:22 INFO  time: Imported build in 0.27s
+2025.04.09 12:54:35 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:54:39 INFO  time: compiled workspace_81bd6e8f1c in 4.08s
+2025.04.09 12:54:39 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:54:39 INFO  time: compiled workspace_81bd6e8f1c in 0.44s
+2025.04.09 12:54:47 INFO  time: indexed workspace in 24s
+2025.04.09 12:54:56 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:54:56 INFO  time: compiled workspace_81bd6e8f1c in 0.25s
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+Apr 09, 2025 12:55:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Apr 09, 2025 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+Apr 09, 2025 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+Apr 09, 2025 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+Apr 09, 2025 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 197
+Apr 09, 2025 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+2025.04.09 12:55:35 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:55:35 INFO  time: compiled workspace_81bd6e8f1c in 0.68s
+Apr 09, 2025 12:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+2025.04.09 12:55:48 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:55:48 INFO  time: compiled workspace_81bd6e8f1c in 0.24s
+2025.04.09 12:55:56 WARN  Could not find semantic tokens for: file:///C:/Users/Hp/Documents/workspace/workspace/sandbox/test.scala
+Apr 09, 2025 12:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+2025.04.09 12:55:59 WARN  Could not find semantic tokens for: file:///C:/Users/Hp/Documents/workspace/workspace/sandbox/test.scala
+2025.04.09 12:56:00 WARN  Could not find semantic tokens for: file:///C:/Users/Hp/Documents/workspace/workspace/sandbox/test.scala
+2025.04.09 12:56:00 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:56:00 INFO  time: compiled workspace_81bd6e8f1c in 0.19s
+2025.04.09 12:56:01 WARN  Could not find semantic tokens for: file:///C:/Users/Hp/Documents/workspace/workspace/sandbox/test.scala
+Apr 09, 2025 12:56:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+Apr 09, 2025 12:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 375
+2025.04.09 12:56:13 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:56:13 INFO  time: compiled workspace_81bd6e8f1c in 0.18s
+2025.04.09 12:56:27 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:56:27 INFO  time: compiled workspace_81bd6e8f1c in 0.24s
+2025.04.09 12:56:38 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:56:38 INFO  time: compiled workspace_81bd6e8f1c in 0.22s
+Apr 09, 2025 12:56:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 492
+Apr 09, 2025 12:56:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 494
+Apr 09, 2025 12:56:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 495
+2025.04.09 12:56:51 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:56:51 INFO  time: compiled workspace_81bd6e8f1c in 0.93s
+2025.04.09 12:57:04 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:57:04 INFO  time: compiled workspace_81bd6e8f1c in 0.47s
+Apr 09, 2025 12:57:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 12:57:22 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+Apr 09, 2025 12:57:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 12:57:24 INFO  time: compiled workspace_81bd6e8f1c in 1.75s
+Apr 09, 2025 12:57:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 12:57:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 675
+2025.04.09 12:57:34 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:57:34 INFO  time: compiled workspace_81bd6e8f1c in 0.14s
+Apr 09, 2025 12:57:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 12:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 12:57:56 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:57:56 INFO  time: compiled workspace_81bd6e8f1c in 0.19s
+Apr 09, 2025 12:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 735
+Apr 09, 2025 12:57:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 745
+Apr 09, 2025 12:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 788
+2025.04.09 12:58:08 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:58:08 INFO  time: compiled workspace_81bd6e8f1c in 0.87s
+Apr 09, 2025 12:58:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 797
+Apr 09, 2025 12:58:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 798
+2025.04.09 12:58:23 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:58:23 INFO  time: compiled workspace_81bd6e8f1c in 0.96s
+Apr 09, 2025 12:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 916
+Apr 09, 2025 12:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 917
+Apr 09, 2025 12:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 919
+Apr 09, 2025 12:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 920
+Apr 09, 2025 12:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 921
+Apr 09, 2025 12:58:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 933
+2025.04.09 12:58:37 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:58:37 INFO  time: compiled workspace_81bd6e8f1c in 0.42s
+2025.04.09 12:58:48 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:58:48 INFO  time: compiled workspace_81bd6e8f1c in 0.53s
+Apr 09, 2025 12:58:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 12:58:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 12:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 978
+2025.04.09 12:59:13 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:59:13 INFO  time: compiled workspace_81bd6e8f1c in 0.41s
+2025.04.09 12:59:23 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:59:23 INFO  time: compiled workspace_81bd6e8f1c in 0.39s
+2025.04.09 12:59:33 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:59:33 INFO  time: compiled workspace_81bd6e8f1c in 0.46s
+2025.04.09 12:59:48 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 12:59:48 INFO  time: compiled workspace_81bd6e8f1c in 0.5s
+2025.04.09 13:00:03 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:00:03 INFO  time: compiled workspace_81bd6e8f1c in 0.45s
+Apr 09, 2025 1:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1135
+Apr 09, 2025 1:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1138
+2025.04.09 13:00:15 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:00:15 INFO  time: compiled workspace_81bd6e8f1c in 0.17s
+2025.04.09 13:02:31 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:02:31 INFO  time: compiled workspace_81bd6e8f1c in 0.92s
+2025.04.09 13:03:10 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:03:10 INFO  time: compiled workspace_81bd6e8f1c in 0.97s
+2025.04.09 13:03:20 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:03:20 INFO  time: compiled workspace_81bd6e8f1c in 0.47s
+2025.04.09 13:03:30 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:03:30 INFO  time: compiled workspace_81bd6e8f1c in 0.28s
+2025.04.09 13:03:41 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:03:41 INFO  time: compiled workspace_81bd6e8f1c in 0.33s
+2025.04.09 13:03:50 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:03:50 INFO  time: compiled workspace_81bd6e8f1c in 0.2s
+2025.04.09 13:04:00 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:04:00 INFO  time: compiled workspace_81bd6e8f1c in 0.23s
+2025.04.09 13:04:11 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:04:11 INFO  time: compiled workspace_81bd6e8f1c in 0.37s
+2025.04.09 13:04:22 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:04:22 INFO  time: compiled workspace_81bd6e8f1c in 0.19s
+2025.04.09 13:04:50 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:04:50 INFO  time: compiled workspace_81bd6e8f1c in 0.57s
+2025.04.09 13:05:08 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:05:08 INFO  time: compiled workspace_81bd6e8f1c in 0.16s
+2025.04.09 13:05:18 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:05:18 INFO  time: compiled workspace_81bd6e8f1c in 0.17s
+2025.04.09 13:05:29 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:05:29 INFO  time: compiled workspace_81bd6e8f1c in 0.21s
+2025.04.09 13:05:38 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:05:38 INFO  time: compiled workspace_81bd6e8f1c in 0.15s
+2025.04.09 13:06:01 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:06:01 INFO  time: compiled workspace_81bd6e8f1c in 0.21s
+2025.04.09 13:06:12 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:06:12 INFO  time: compiled workspace_81bd6e8f1c in 0.14s
+Apr 09, 2025 1:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1619
+Apr 09, 2025 1:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1621
+Apr 09, 2025 1:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1626
+Apr 09, 2025 1:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1631
+2025.04.09 13:07:18 INFO  compiling workspace_81bd6e8f1c (2 scala sources and 1 java source)
+2025.04.09 13:07:18 INFO  time: compiled workspace_81bd6e8f1c in 0.16s
+Apr 09, 2025 1:09:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Hp\Documents\workspace\workspace\.metals\.reports\metals-full\2025-04-09\r_compiler-error_(workspace_81bd6e8f1c-test)_13-09-36-287.md
+Apr 09, 2025 1:12:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 1:14:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/c%3A/Users/Hp/Documents/workspace/CS60/Semester4/Pempro/8/1.scala"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 09, 2025 1:14:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/c%3A/Users/Hp/Documents/workspace/CS60/Semester4/Pempro/8/1.scala"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 13:14:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 13:14:24 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 13:14:25 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 13:14:25 WARN  no build target for: C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala
+2025.04.09 13:14:25 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.09 13:14:30 INFO  Running List(C:\Users\Hp\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\Hp\AppData\Local\Temp\metals-scala-cli16053785163357233598, --semantic-db-source-root, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala)
+2025.04.09 13:14:32 INFO  time: code lens generation in 6.83s
+2025.04.09 13:14:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 13:14:33 INFO  Connected to Scala CLI server v1.7.1
+2025.04.09 13:14:34 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-975a96ecb1 (1 scala source)
+2025.04.09 13:14:36 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-975a96ecb1 in 2.08s
+Apr 09, 2025 1:14:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/c%3A/Users/Hp/Documents/workspace/CS60/Semester4/Pempro/8/2.scala"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 13:14:40 INFO  time: indexed workspace in 6.89s
+2025.04.09 13:14:41 INFO  Scala CLI started for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala
+Apr 09, 2025 1:20:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/c%3A/Users/Hp/Documents/workspace/CS60/Semester4/Pempro/8/2.scala"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 13:20:58 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:21:01 INFO  time: compiled workspace_81bd6e8f1c in 3.24s
+2025.04.09 13:21:02 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:21:04 INFO  time: compiled workspace_81bd6e8f1c in 1.5s
+2025.04.09 13:21:05 ERROR C:\Users\Hp\Documents\workspace\workspace\tempCodeRunnerFile.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:998)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:1012)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:364)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:489)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7(Indexer.scala:361)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7$adapted(Indexer.scala:356)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:938)
+	at scala.collection.parallel.Task.$anonfun$tryLeaf$1(Tasks.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.control.Breaks$$anon$1.catchBreak(Breaks.scala:97)
+	at scala.collection.parallel.Task.tryLeaf(Tasks.scala:55)
+	at scala.collection.parallel.Task.tryLeaf$(Tasks.scala:49)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:935)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute(Tasks.scala:152)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute$(Tasks.scala:148)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.compute(Tasks.scala:304)
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+2025.04.09 13:21:06 INFO  time: indexed workspace in 8.11s
+2025.04.09 13:21:19 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:21:19 INFO  time: compiled workspace_81bd6e8f1c in 0.34s
+2025.04.09 13:21:30 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:21:30 INFO  time: compiled workspace_81bd6e8f1c in 0.24s
+2025.04.09 13:24:17 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:24:18 INFO  time: compiled workspace_81bd6e8f1c in 1.89s
+2025.04.09 13:24:52 INFO  compiling workspace_81bd6e8f1c (3 scala sources and 1 java source)
+2025.04.09 13:24:53 INFO  time: compiled workspace_81bd6e8f1c in 1.03s
+Apr 09, 2025 1:25:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:/c%3A/Users/Hp/Documents/workspace/CS60/Semester4/Pempro/8/2.scala"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025.04.09 13:25:11 INFO  Running List(C:\Users\Hp\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\Hp\AppData\Local\Temp\metals-scala-cli16053785163357233598, --semantic-db-source-root, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala)
+2025.04.09 13:25:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:11 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:12 WARN  no build target for: C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala
+2025.04.09 13:25:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:12 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:13 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+Apr 09, 2025 1:25:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1700
+2025.04.09 13:25:15 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:15 INFO  time: code lens generation in 2.83s
+2025.04.09 13:25:15 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:15 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\.metals\bsp.trace.json
+2025.04.09 13:25:16 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+Apr 09, 2025 1:25:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1704
+2025.04.09 13:25:16 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:16 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:16 INFO  no build target found for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala. Using presentation compiler with project's scala-library version: 3.6.4
+2025.04.09 13:25:20 INFO  Connected to Scala CLI server v1.7.1
+2025.04.09 13:25:21 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:25:22 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 1.16s
+2025.04.09 13:25:22 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:25:23 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.88s
+2025.04.09 13:25:23 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:25:25 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.41s
+2025.04.09 13:25:28 INFO  time: indexed workspace in 7.24s
+2025.04.09 13:25:29 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:25:29 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.49s
+2025.04.09 13:25:29 INFO  Scala CLI started for C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala
+2025.04.09 13:25:48 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:25:51 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 3.28s
+Apr 09, 2025 1:26:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1786
+2025.04.09 13:27:00 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:27:00 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.17s
+2025.04.09 13:27:05 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:27:06 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 1.49s
+2025.04.09 13:27:11 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:27:11 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.7s
+2025.04.09 13:27:27 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:27:27 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.67s
+2025.04.09 13:27:47 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:27:47 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 0.6s
+2025.04.09 13:28:08 INFO  compiling metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe (1 scala source)
+2025.04.09 13:28:09 INFO  time: compiled metals-scala-cli16053785163357233598_fea1474f1a-6a657a7afe in 1.13s
+2025.04.09 13:29:09 INFO  Shut down connection with build server.
+2025.04.09 13:29:09 INFO  Shut down connection with build server.
+2025.04.09 13:29:09 INFO  Scala CLI: Apr 09, 2025 1:29:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.04.09 13:29:13 INFO  Running List(C:\Users\Hp\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\Hp\AppData\Local\Temp\metals-scala-cli16053785163357233598, --semantic-db-source-root, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\1.scala)
+2025.04.09 13:29:13 INFO  Running List(C:\Users\Hp\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\Hp\AppData\Local\Temp\metals-scala-cli16053785163357233598, --semantic-db-source-root, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8, C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\2.scala)
+2025.04.09 13:29:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 13:29:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hp\Documents\workspace\CS60\Semester4\Pempro\8\.metals\bsp.trace.json or C:\Users\Hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.09 13:29:17 INFO  Connected to Scala CLI server v1.7.1
+2025.04.09 13:29:17 INFO  Connected to Scala CLI server v1.7.1
+Apr 09, 2025 1:29:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1892
+Apr 09, 2025 1:29:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.04.09 13:29:21 INFO  Shutting down server
+2025.04.09 13:29:21 INFO  shutting down Metals
+2025.04.09 13:29:22 INFO  Shut down connection with build server.
+2025.04.09 13:29:22 INFO  Exiting server
