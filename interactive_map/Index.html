@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Persentase Kemiskinan Indonesia 2024</title>
+    <title>Peta Kemiskinan Indonesia</title>
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
@@ -11,123 +11,222 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            background: #222;
+            background: #1a1a1a;
             color: #fff;
+            font-family: 'Arial', sans-serif;
         }
         #container {
-            width: 100vw;
-            height: 100vh;
-            min-width: 0;
-            min-height: 0;
+            height: calc(100vh - 70px);
+            width: 100%;
+        }
+        .controls {
+            padding: 15px 20px;
+            background: #2a2a2a;
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+        }
+        .control-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        label {
+            font-size: 14px;
+            color: #ddd;
+        }
+        select {
+            padding: 8px 15px;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            font-size: 14px;
+            min-width: 150px;
+        }
+        select:hover {
+            background: #3a3a3a;
         }
     </style>
 </head>
 <body>
+    <div class="controls">
+        <div class="control-group">
+            <label>Tahun:</label>
+            <select id="yearSelector">
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024" selected>2024</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>Semester:</label>
+            <select id="semesterSelector">
+                <option value="semester1">Semester 1</option>
+                <option value="semester2">Semester 2</option>
+            </select>
+        </div>
+    </div>
+    
     <div id="container"></div>
-    <script>
-        // Data persentase kemiskinan dari CSV
-        const povertyData = {
-            'id-ac': 14.23, // Aceh
-            'id-su': 7.99,  // Sumatera Utara
-            'id-sb': 5.97,  // Sumatera Barat
-            'id-ri': 6.67,  // Riau
-            'id-ja': 7.1,   // Jambi
-            'id-sl': 10.97, // Sumatera Selatan
-            'id-be': 13.56, // Bengkulu
-            'id-1024': 10.69, // Lampung
-            'id-bb': 4.55,  // Bangka Belitung
-            'id-kr': 5.37,  // Kepulauan Riau
-            'id-jk': 4.3,   // DKI Jakarta
-            'id-jr': 7.46,  // Jawa Barat
-            'id-jt': 10.47, // Jawa Tengah
-            'id-yo': 10.83, // DI Yogyakarta
-            'id-ji': 9.79,  // Jawa Timur
-            'id-bt': 5.84,  // Banten
-            'id-ba': 4,     // Bali
-            'id-nb': 12.91, // Nusa Tenggara Barat
-            'id-nt': 19.48, // Nusa Tenggara Timur
-            'id-kb': 6.32,  // Kalimantan Barat
-            'id-kt': 5.17,  // Kalimantan Tengah
-            'id-ks': 4.11,  // Kalimantan Selatan
-            'id-ki': 5.78,  // Kalimantan Timur
-            'id-ku': 6.32,  // Kalimantan Utara
-            'id-sw': 7.25,  // Sulawesi Barat
-            'id-st': 11.77, // Sulawesi Tengah
-            'id-se': 8.06,  // Sulawesi Selatan
-            'id-sg': 11.21, // Sulawesi Tenggara
-            'id-go': 14.57, // Gorontalo
-            'id-sr': 11.21, // Sulawesi Barat
-            'id-ma': 16.05, // Maluku
-            'id-la': 6.32,  // Maluku Utara
-            'id-ib': 21.66, // Irian Jaya Barat (Papua Barat)
-            'id-pa': 17.26, // Papua
-            'id-id': 9.03   // Indonesia (nasional)
-        };
 
-        Highcharts.mapChart('container', {
-            chart: {
-                map: 'countries/id/id-all',
-                backgroundColor: '#222'
-            },
-            title: {
-                text: 'Persentase Penduduk Miskin Indonesia 2024',
-                style: {
-                    fontSize: '18px',
-                    color: '#fff'
-                }
-            },
-            colorAxis: {
-                min: 0,
-                max: 30,
-                stops: [
-                    [0, '#90EE90'],
-                    [0.5, '#FFD700'],
-                    [1, '#FF4500']
-                ]
-            },
-            tooltip: {
-                backgroundColor: '#333',
-                style: { color: '#fff' },
-                headerFormat: '<span style="font-size:14px">{point.key}</span><br/>',
-                pointFormat: 'Persentase: <b>{point.value}%</b>'
-            },
-            series: [{
-                data: Object.entries(povertyData).map(([key, value]) => ({
-                    'hc-key': key,
-                    value: value
-                })),
-                name: 'Persentase Kemiskinan',
-                states: {
-                    hover: {
-                        color: '#BADA55'
+    <script>
+        let chart;
+        
+        async function loadData() {
+            const response = await fetch('data1.json');
+            return await response.json();
+        }
+
+        async function updateChart() {
+            const year = document.getElementById('yearSelector').value;
+            const semester = document.getElementById('semesterSelector').value;
+            const { povertyData } = await loadData();
+            
+            const seriesData = povertyData
+                .map(province => {
+                    const yearData = province.data[year] || {};
+                    const value = yearData[semester];
+                    return {
+                        'hc-key': province['hc-key'],
+                        value: value !== null && value !== undefined ? value : null,
+                        name: province.province
+                    };
+                })
+                .filter(entry => entry.value !== null);
+
+            const chartConfig = {
+                chart: {
+                    map: 'countries/id/id-all',
+                    backgroundColor: '#1a1a1a',
+                    borderWidth: 0
+                },
+                title: {
+                    text: `Persentase Penduduk Miskin Indonesia - ${year}`,
+                    style: { 
+                        color: '#fff',
+                        fontSize: '20px',
+                        fontWeight: 'bold'
                     }
                 },
-                dataLabels: {
+                colorAxis: {
+                    min: 0,
+                    max: 40,
+                    stops: [
+                        [0, '#FFFACD'],   // Kuning sangat muda
+                        [0.25, '#FFD700'],  // Kuning
+                        [0.5, '#FFA500'],   // Oranye
+                        [0.75, '#FF4500'],   // Merah Oranye
+                        [1, '#8B0000']      // Merah Tua
+                    ],
+                    labels: {
+                        style: {
+                            color: '#fff',
+                            fontSize: '11px',
+                            textOutline: 'none'
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(0,0,0,0.9)',
+                    borderWidth: 0,
+                    style: { 
+                        color: '#fff',
+                        fontSize: '13px',
+                        padding: '10px'
+                    },
+                    headerFormat: '<span style="font-size:15px; margin-bottom:5px; display:block"><b>{point.key}</b></span>',
+                    pointFormat: '<span> {series.name}:</span><br><span style="font-size:16px"><b>{point.value}%</b></span>'
+                },
+                series: [{
+                    data: seriesData,
+                    name: `Tahun ${year}`,
+                    nullColor: '#666666',     // Abu-abu untuk data kosong
+                    borderColor: '#444',
+                    borderWidth: 0.5,
+                    states: {
+                        hover: {
+                            color: null,
+                            brightness: -0.3 // Menggelapkan 30% saat hover
+                        }
+                    },
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.name}',
+                        style: {
+                            color: '#fff',
+                            fontSize: '9px',
+                            textOutline: '2px rgba(0,0,0,0.7)',
+                            fontWeight: 'normal'
+                        }
+                    }
+                }],
+                mapNavigation: {
                     enabled: true,
-                    format: '{point.name}',
-                    style: { color: '#fff', textOutline: '1px #000' }
-                }
-            }],
-            mapNavigation: {
-                enabled: true,
-                buttonOptions: {
-                    verticalAlign: 'bottom'
-                }
-            },
-            legend: {
-                title: {
-                    text: 'Skala Persentase (%)',
-                    style: {
-                        fontWeight: 'bold',
+                    buttonOptions: {
+                        verticalAlign: 'bottom',
+                        theme: {
+                            fill: 'rgba(30,30,30,0.9)',
+                            stroke: '#555',
+                            style: {
+                                color: '#fff'
+                            },
+                            states: {
+                                hover: {
+                                    fill: '#404040'
+                                },
+                                select: {
+                                    fill: '#505050'
+                                }
+                            }
+                        }
+                    }
+                },
+                legend: {
+                    title: {
+                        text: 'Skala Persentase (%)',
+                        style: {
+                            color: '#fff',
+                            fontSize: '14px',
+                            fontWeight: 'bold'
+                        }
+                    },
+                    align: 'right',
+                    verticalAlign: 'middle',
+                    layout: 'vertical',
+                    floating: true,
+                    backgroundColor: 'rgba(40,40,40,0.8)',
+                    borderWidth: 0,
+                    itemStyle: {
+                        color: '#ddd',
+                        fontSize: '12px'
+                    },
+                    itemHoverStyle: {
                         color: '#fff'
                     }
-                },
-                align: 'right',
-                verticalAlign: 'middle',
-                backgroundColor: '#222',
-                itemStyle: { color: '#fff' }
+                }
+            };
+
+            if (!chart) {
+                chart = Highcharts.mapChart('container', chartConfig);
+            } else {
+                chart.update(chartConfig);
             }
-        });
+        }
+
+        // Event listeners
+        document.getElementById('yearSelector').addEventListener('change', updateChart);
+        document.getElementById('semesterSelector').addEventListener('change', updateChart);
+
+        // Initial load
+        updateChart();
     </script>
 </body>
 </html>
