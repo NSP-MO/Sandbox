@@ -1,0 +1,550 @@
+{
+    "povertyData": [
+        {
+            "province": "ACEH",
+            "hc-key": "id-ac",
+            "data": {
+                "2017": {"semester1": 16.89, "semester2": 15.92},
+                "2018": {"semester1": 15.97, "semester2": 15.68},
+                "2019": {"semester1": 15.32, "semester2": 15.01},
+                "2020": {"semester1": 14.99, "semester2": 15.43},
+                "2021": {"semester1": 15.33, "semester2": 15.53},
+                "2022": {"semester1": 14.64, "semester2": 14.75},
+                "2023": {"semester1": 14.45, "semester2": null},
+                "2024": {"semester1": 14.23, "semester2": 12.64}
+            }
+        },
+        {
+            "province": "SUMATERA UTARA",
+            "hc-key": "id-su",
+            "data": {
+                "2017": {"semester1": 10.22, "semester2": 9.28},
+                "2018": {"semester1": 9.22, "semester2": 8.94},
+                "2019": {"semester1": 8.83, "semester2": 8.63},
+                "2020": {"semester1": 8.75, "semester2": 9.14},
+                "2021": {"semester1": 9.01, "semester2": 8.49},
+                "2022": {"semester1": 8.42, "semester2": 8.33},
+                "2023": {"semester1": 8.15, "semester2": null},
+                "2024": {"semester1": 7.99, "semester2": 7.19}
+            }
+        },
+        {
+            "province": "SUMATERA BARAT",
+            "hc-key": "id-sb",
+            "data": {
+                "2017": {"semester1": 6.87, "semester2": 6.75},
+                "2018": {"semester1": 6.65, "semester2": 6.55},
+                "2019": {"semester1": 6.42, "semester2": 6.29},
+                "2020": {"semester1": 6.28, "semester2": 6.56},
+                "2021": {"semester1": 6.63, "semester2": 6.04},
+                "2022": {"semester1": 5.92, "semester2": 6.04},
+                "2023": {"semester1": 5.95, "semester2": null},
+                "2024": {"semester1": 5.97, "semester2": 5.42}
+            }
+        },
+        {
+            "province": "RIAU",
+            "hc-key": "id-ri",
+            "data": {
+                "2017": {"semester1": 7.78, "semester2": 7.41},
+                "2018": {"semester1": 7.39, "semester2": 7.21},
+                "2019": {"semester1": 7.08, "semester2": 6.9},
+                "2020": {"semester1": 6.82, "semester2": 7.04},
+                "2021": {"semester1": 7.12, "semester2": 7.0},
+                "2022": {"semester1": 6.78, "semester2": 6.84},
+                "2023": {"semester1": 6.68, "semester2": null},
+                "2024": {"semester1": 6.67, "semester2": 6.36}
+            }
+        },
+        {
+            "province": "JAMBI",
+            "hc-key": "id-ja",
+            "data": {
+                "2017": {"semester1": 8.19, "semester2": 7.9},
+                "2018": {"semester1": 7.92, "semester2": 7.85},
+                "2019": {"semester1": 7.6, "semester2": 7.51},
+                "2020": {"semester1": 7.58, "semester2": 7.97},
+                "2021": {"semester1": 8.09, "semester2": 7.67},
+                "2022": {"semester1": 7.62, "semester2": 7.7},
+                "2023": {"semester1": 7.58, "semester2": null},
+                "2024": {"semester1": 7.1, "semester2": 7.26}
+            }
+        },
+        {
+            "province": "SUMATERA SELATAN",
+            "hc-key": "id-sl",
+            "data": {
+                "2017": {"semester1": 13.19, "semester2": 13.1},
+                "2018": {"semester1": 12.8, "semester2": 12.82},
+                "2019": {"semester1": 12.71, "semester2": 12.56},
+                "2020": {"semester1": 12.66, "semester2": 12.98},
+                "2021": {"semester1": 12.84, "semester2": 12.79},
+                "2022": {"semester1": 11.9, "semester2": 11.95},
+                "2023": {"semester1": 11.78, "semester2": null},
+                "2024": {"semester1": 10.97, "semester2": 10.51}
+            }
+        },
+        {
+            "province": "BENGKULU",
+            "hc-key": "id-be",
+            "data": {
+                "2017": {"semester1": 16.45, "semester2": 15.59},
+                "2018": {"semester1": 15.43, "semester2": 15.41},
+                "2019": {"semester1": 15.23, "semester2": 14.91},
+                "2020": {"semester1": 15.03, "semester2": 15.3},
+                "2021": {"semester1": 15.22, "semester2": 14.43},
+                "2022": {"semester1": 14.62, "semester2": 14.34},
+                "2023": {"semester1": 14.04, "semester2": null},
+                "2024": {"semester1": 13.56, "semester2": 12.52}
+            }
+        },
+        {
+            "province": "LAMPUNG",
+            "hc-key": "id-1024",
+            "data": {
+                "2017": {"semester1": 13.69, "semester2": 13.04},
+                "2018": {"semester1": 13.14, "semester2": 13.01},
+                "2019": {"semester1": 12.62, "semester2": 12.3},
+                "2020": {"semester1": 12.34, "semester2": 12.76},
+                "2021": {"semester1": 12.62, "semester2": 11.67},
+                "2022": {"semester1": 11.57, "semester2": 11.44},
+                "2023": {"semester1": 11.11, "semester2": null},
+                "2024": {"semester1": 10.69, "semester2": 10.62}
+            }
+        },
+        {
+            "province": "KEP. BANGKA BELITUNG",
+            "hc-key": "id-bb",
+            "data": {
+                "2017": {"semester1": 5.2, "semester2": 5.3},
+                "2018": {"semester1": 5.25, "semester2": 4.77},
+                "2019": {"semester1": 4.62, "semester2": 4.5},
+                "2020": {"semester1": 4.53, "semester2": 4.89},
+                "2021": {"semester1": 4.9, "semester2": 4.67},
+                "2022": {"semester1": 4.45, "semester2": 4.61},
+                "2023": {"semester1": 4.52, "semester2": null},
+                "2024": {"semester1": 4.55, "semester2": 5.08}
+            }
+        },
+        {
+            "province": "KEP. RIAU",
+            "hc-key": "id-kr",
+            "data": {
+                "2017": {"semester1": 6.06, "semester2": 6.13},
+                "2018": {"semester1": 6.2, "semester2": 5.83},
+                "2019": {"semester1": 5.9, "semester2": 5.8},
+                "2020": {"semester1": 5.92, "semester2": 6.13},
+                "2021": {"semester1": 6.12, "semester2": 5.75},
+                "2022": {"semester1": 6.24, "semester2": 6.03},
+                "2023": {"semester1": 5.69, "semester2": null},
+                "2024": {"semester1": 5.37, "semester2": 4.78}
+            }
+        },
+        {
+            "province": "DKI JAKARTA",
+            "hc-key": "id-jk",
+            "data": {
+                "2017": {"semester1": 3.77, "semester2": 3.78},
+                "2018": {"semester1": 3.57, "semester2": 3.55},
+                "2019": {"semester1": 3.47, "semester2": 3.42},
+                "2020": {"semester1": 4.53, "semester2": 4.69},
+                "2021": {"semester1": 4.72, "semester2": 4.67},
+                "2022": {"semester1": 4.69, "semester2": 4.61},
+                "2023": {"semester1": 4.44, "semester2": null},
+                "2024": {"semester1": 4.3, "semester2": 4.14}
+            }
+        },
+        {
+            "province": "JAWA BARAT",
+            "hc-key": "id-jr",
+            "data": {
+                "2017": {"semester1": 8.71, "semester2": 7.83},
+                "2018": {"semester1": 7.45, "semester2": 7.25},
+                "2019": {"semester1": 6.91, "semester2": 6.82},
+                "2020": {"semester1": 7.88, "semester2": 8.43},
+                "2021": {"semester1": 8.4, "semester2": 7.97},
+                "2022": {"semester1": 8.06, "semester2": 7.98},
+                "2023": {"semester1": 7.62, "semester2": null},
+                "2024": {"semester1": 7.46, "semester2": 7.08}
+            }
+        },
+        {
+            "province": "JAWA TENGAH",
+            "hc-key": "id-jt",
+            "data": {
+                "2017": {"semester1": 13.01, "semester2": 12.23},
+                "2018": {"semester1": 11.32, "semester2": 11.19},
+                "2019": {"semester1": 10.8, "semester2": 10.58},
+                "2020": {"semester1": 11.41, "semester2": 11.84},
+                "2021": {"semester1": 11.79, "semester2": 11.25},
+                "2022": {"semester1": 10.93, "semester2": 10.98},
+                "2023": {"semester1": 10.77, "semester2": null},
+                "2024": {"semester1": 10.47, "semester2": 9.58}
+            }
+        },
+        {
+            "province": "DI YOGYAKARTA",
+            "hc-key": "id-yo",
+            "data": {
+                "2017": {"semester1": 13.02, "semester2": 12.36},
+                "2018": {"semester1": 12.13, "semester2": 11.81},
+                "2019": {"semester1": 11.7, "semester2": 11.44},
+                "2020": {"semester1": 12.28, "semester2": 12.8},
+                "2021": {"semester1": 12.8, "semester2": 11.91},
+                "2022": {"semester1": 11.34, "semester2": 11.49},
+                "2023": {"semester1": 11.04, "semester2": null},
+                "2024": {"semester1": 10.83, "semester2": 10.4}
+            }
+        },
+        {
+            "province": "JAWA TIMUR",
+            "hc-key": "id-ji",
+            "data": {
+                "2017": {"semester1": 11.77, "semester2": 11.2},
+                "2018": {"semester1": 10.98, "semester2": 10.85},
+                "2019": {"semester1": 10.37, "semester2": 10.2},
+                "2020": {"semester1": 11.09, "semester2": 11.46},
+                "2021": {"semester1": 11.4, "semester2": 10.59},
+                "2022": {"semester1": 10.38, "semester2": 10.49},
+                "2023": {"semester1": 10.35, "semester2": null},
+                "2024": {"semester1": 9.79, "semester2": 9.56}
+            }
+        },
+        {
+            "province": "BANTEN",
+            "hc-key": "id-bt",
+            "data": {
+                "2017": {"semester1": 5.45, "semester2": 5.59},
+                "2018": {"semester1": 5.24, "semester2": 5.25},
+                "2019": {"semester1": 5.09, "semester2": 4.94},
+                "2020": {"semester1": 5.92, "semester2": 6.63},
+                "2021": {"semester1": 6.66, "semester2": 6.5},
+                "2022": {"semester1": 6.16, "semester2": 6.24},
+                "2023": {"semester1": 6.17, "semester2": null},
+                "2024": {"semester1": 5.84, "semester2": 5.7}
+            }
+        },
+        {
+            "province": "BALI",
+            "hc-key": "id-ba",
+            "data": {
+                "2017": {"semester1": 4.25, "semester2": 4.14},
+                "2018": {"semester1": 4.01, "semester2": 3.91},
+                "2019": {"semester1": 3.79, "semester2": 3.61},
+                "2020": {"semester1": 3.78, "semester2": 4.45},
+                "2021": {"semester1": 4.53, "semester2": 4.72},
+                "2022": {"semester1": 4.57, "semester2": 4.53},
+                "2023": {"semester1": 4.25, "semester2": null},
+                "2024": {"semester1": 4.0, "semester2": 3.8}
+            }
+        },
+        {
+            "province": "NUSA TENGGARA BARAT",
+            "hc-key": "id-nb",
+            "data": {
+                "2017": {"semester1": 16.07, "semester2": 15.05},
+                "2018": {"semester1": 14.75, "semester2": 14.63},
+                "2019": {"semester1": 14.56, "semester2": 13.88},
+                "2020": {"semester1": 13.97, "semester2": 14.23},
+                "2021": {"semester1": 14.14, "semester2": 13.83},
+                "2022": {"semester1": 13.68, "semester2": 13.82},
+                "2023": {"semester1": 13.85, "semester2": null},
+                "2024": {"semester1": 12.91, "semester2": 11.91}
+            }
+        },
+        {
+            "province": "NUSA TENGGARA TIMUR",
+            "hc-key": "id-nt",
+            "data": {
+                "2017": {"semester1": 21.85, "semester2": 21.38},
+                "2018": {"semester1": 21.35, "semester2": 21.03},
+                "2019": {"semester1": 21.09, "semester2": 20.62},
+                "2020": {"semester1": 20.9, "semester2": 21.21},
+                "2021": {"semester1": 20.99, "semester2": 20.44},
+                "2022": {"semester1": 20.05, "semester2": 20.23},
+                "2023": {"semester1": 19.96, "semester2": null},
+                "2024": {"semester1": 19.48, "semester2": 19.02}
+            }
+        },
+        {
+            "province": "KALIMANTAN BARAT",
+            "hc-key": "id-kb",
+            "data": {
+                "2017": {"semester1": 7.88, "semester2": 7.86},
+                "2018": {"semester1": 7.77, "semester2": 7.37},
+                "2019": {"semester1": 7.49, "semester2": 7.28},
+                "2020": {"semester1": 7.17, "semester2": 7.24},
+                "2021": {"semester1": 7.15, "semester2": 6.84},
+                "2022": {"semester1": 6.73, "semester2": 6.81},
+                "2023": {"semester1": 6.71, "semester2": null},
+                "2024": {"semester1": 6.32, "semester2": 6.25}
+            }
+        },
+        {
+            "province": "KALIMANTAN TENGAH",
+            "hc-key": "id-kt",
+            "data": {
+                "2017": {"semester1": 5.37, "semester2": 5.26},
+                "2018": {"semester1": 5.17, "semester2": 5.1},
+                "2019": {"semester1": 4.98, "semester2": 4.81},
+                "2020": {"semester1": 4.82, "semester2": 5.26},
+                "2021": {"semester1": 5.16, "semester2": 5.16},
+                "2022": {"semester1": 5.28, "semester2": 5.22},
+                "2023": {"semester1": 5.11, "semester2": null},
+                "2024": {"semester1": 5.17, "semester2": 5.26}
+            }
+        },
+        {
+            "province": "KALIMANTAN SELATAN",
+            "hc-key": "id-ks",
+            "data": {
+                "2017": {"semester1": 4.73, "semester2": 4.7},
+                "2018": {"semester1": 4.54, "semester2": 4.65},
+                "2019": {"semester1": 4.55, "semester2": 4.47},
+                "2020": {"semester1": 4.38, "semester2": 4.83},
+                "2021": {"semester1": 4.83, "semester2": 4.56},
+                "2022": {"semester1": 4.49, "semester2": 4.61},
+                "2023": {"semester1": 4.29, "semester2": null},
+                "2024": {"semester1": 4.11, "semester2": 4.02}
+            }
+        },
+        {
+            "province": "KALIMANTAN TIMUR",
+            "hc-key": "id-ki",
+            "data": {
+                "2017": {"semester1": 6.19, "semester2": 6.08},
+                "2018": {"semester1": 6.03, "semester2": 6.06},
+                "2019": {"semester1": 5.94, "semester2": 5.91},
+                "2020": {"semester1": 6.1, "semester2": 6.64},
+                "2021": {"semester1": 6.54, "semester2": 6.27},
+                "2022": {"semester1": 6.31, "semester2": 6.44},
+                "2023": {"semester1": 6.11, "semester2": null},
+                "2024": {"semester1": 5.78, "semester2": 5.51}
+            }
+        },
+        {
+            "province": "KALIMANTAN UTARA",
+            "hc-key": "id-ku",
+            "data": {
+                "2017": {"semester1": 7.22, "semester2": 6.96},
+                "2018": {"semester1": 7.09, "semester2": 6.86},
+                "2019": {"semester1": 6.63, "semester2": 6.49},
+                "2020": {"semester1": 6.8, "semester2": 7.41},
+                "2021": {"semester1": 7.36, "semester2": 6.83},
+                "2022": {"semester1": 6.77, "semester2": 6.86},
+                "2023": {"semester1": 6.45, "semester2": null},
+                "2024": {"semester1": 6.32, "semester2": 5.38}
+            }
+        },
+        {
+            "province": "SULAWESI UTARA",
+            "hc-key": "id-sw",
+            "data": {
+                "2017": {"semester1": 8.1, "semester2": 7.9},
+                "2018": {"semester1": 7.8, "semester2": 7.59},
+                "2019": {"semester1": 7.66, "semester2": 7.51},
+                "2020": {"semester1": 7.62, "semester2": 7.78},
+                "2021": {"semester1": 7.77, "semester2": 7.36},
+                "2022": {"semester1": 7.28, "semester2": 7.34},
+                "2023": {"semester1": 7.38, "semester2": null},
+                "2024": {"semester1": 7.25, "semester2": 6.7}
+            }
+        },
+        {
+            "province": "SULAWESI TENGAH",
+            "hc-key": "id-st",
+            "data": {
+                "2017": {"semester1": 14.14, "semester2": 14.22},
+                "2018": {"semester1": 14.01, "semester2": 13.69},
+                "2019": {"semester1": 13.48, "semester2": 13.18},
+                "2020": {"semester1": 12.92, "semester2": 13.06},
+                "2021": {"semester1": 13.0, "semester2": 12.18},
+                "2022": {"semester1": 12.33, "semester2": 12.3},
+                "2023": {"semester1": 12.41, "semester2": null},
+                "2024": {"semester1": 11.77, "semester2": 11.04}
+            }
+        },
+        {
+            "province": "SULAWESI SELATAN",
+            "hc-key": "id-se",
+            "data": {
+                "2017": {"semester1": 9.38, "semester2": 9.48},
+                "2018": {"semester1": 9.06, "semester2": 8.87},
+                "2019": {"semester1": 8.69, "semester2": 8.56},
+                "2020": {"semester1": 8.72, "semester2": 8.99},
+                "2021": {"semester1": 8.78, "semester2": 8.53},
+                "2022": {"semester1": 8.63, "semester2": 8.66},
+                "2023": {"semester1": 8.7, "semester2": null},
+                "2024": {"semester1": 8.06, "semester2": 7.77}
+            }
+        },
+        {
+            "province": "SULAWESI TENGGARA",
+            "hc-key": "id-sg",
+            "data": {
+                "2017": {"semester1": 12.81, "semester2": 11.97},
+                "2018": {"semester1": 11.63, "semester2": 11.32},
+                "2019": {"semester1": 11.24, "semester2": 11.04},
+                "2020": {"semester1": 11.0, "semester2": 11.69},
+                "2021": {"semester1": 11.66, "semester2": 11.74},
+                "2022": {"semester1": 11.17, "semester2": 11.27},
+                "2023": {"semester1": 11.43, "semester2": null},
+                "2024": {"semester1": 11.21, "semester2": 10.63}
+            }
+        },
+        {
+            "province": "GORONTALO",
+            "hc-key": "id-go",
+            "data": {
+                "2017": {"semester1": 17.65, "semester2": 17.14},
+                "2018": {"semester1": 16.81, "semester2": 15.83},
+                "2019": {"semester1": 15.52, "semester2": 15.31},
+                "2020": {"semester1": 15.22, "semester2": 15.59},
+                "2021": {"semester1": 15.61, "semester2": 15.41},
+                "2022": {"semester1": 15.42, "semester2": 15.51},
+                "2023": {"semester1": 15.15, "semester2": null},
+                "2024": {"semester1": 14.57, "semester2": 13.87}
+            }
+        },
+        {
+            "province": "SULAWESI BARAT",
+            "hc-key": "id-sr",
+            "data": {
+                "2017": {"semester1": 11.3, "semester2": 11.18},
+                "2018": {"semester1": 11.25, "semester2": 11.22},
+                "2019": {"semester1": 11.02, "semester2": 10.95},
+                "2020": {"semester1": 10.87, "semester2": 11.5},
+                "2021": {"semester1": 11.29, "semester2": 11.85},
+                "2022": {"semester1": 11.75, "semester2": 11.92},
+                "2023": {"semester1": 11.49, "semester2": null},
+                "2024": {"semester1": 11.21, "semester2": 10.71}
+            }
+        },
+        {
+            "province": "MALUKU",
+            "hc-key": "id-ma",
+            "data": {
+                "2017": {"semester1": 18.45, "semester2": 18.29},
+                "2018": {"semester1": 18.12, "semester2": 17.85},
+                "2019": {"semester1": 17.69, "semester2": 17.65},
+                "2020": {"semester1": 17.44, "semester2": 17.99},
+                "2021": {"semester1": 17.87, "semester2": 16.3},
+                "2022": {"semester1": 15.97, "semester2": 16.23},
+                "2023": {"semester1": 16.42, "semester2": null},
+                "2024": {"semester1": 16.05, "semester2": 15.78}
+            }
+        },
+        {
+            "province": "MALUKU UTARA",
+            "hc-key": "id-la",
+            "data": {
+                "2017": {"semester1": 6.35, "semester2": 6.44},
+                "2018": {"semester1": 6.64, "semester2": 6.62},
+                "2019": {"semester1": 6.77, "semester2": 6.91},
+                "2020": {"semester1": 6.78, "semester2": 6.97},
+                "2021": {"semester1": 6.89, "semester2": 6.38},
+                "2022": {"semester1": 6.23, "semester2": 6.37},
+                "2023": {"semester1": 6.46, "semester2": null},
+                "2024": {"semester1": 6.32, "semester2": 6.03}
+            }
+        },
+        {
+            "province": "PAPUA BARAT",
+            "hc-key": "id-ib",
+            "data": {
+                "2017": {"semester1": 25.1, "semester2": 23.12},
+                "2018": {"semester1": 23.01, "semester2": 22.66},
+                "2019": {"semester1": 22.17, "semester2": 21.51},
+                "2020": {"semester1": 21.37, "semester2": 21.7},
+                "2021": {"semester1": 21.84, "semester2": 21.82},
+                "2022": {"semester1": 21.33, "semester2": 21.43},
+                "2023": {"semester1": 20.49, "semester2": null},
+                "2024": {"semester1": 21.66, "semester2": 21.09}
+            }
+        },
+        {
+            "province": "PAPUA BARAT DAYA",
+            "hc-key": "id-ib",
+            "data": {
+                "2017": {"semester1": null, "semester2": null},
+                "2018": {"semester1": null, "semester2": null},
+                "2019": {"semester1": null, "semester2": null},
+                "2020": {"semester1": null, "semester2": null},
+                "2021": {"semester1": null, "semester2": null},
+                "2022": {"semester1": null, "semester2": null},
+                "2023": {"semester1": null, "semester2": null},
+                "2024": {"semester1": 18.13, "semester2": 16.95}
+            }
+        },
+        {
+            "province": "PAPUA",
+            "hc-key": "id-pa",
+            "data": {
+                "2017": {"semester1": 27.62, "semester2": 27.76},
+                "2018": {"semester1": 27.74, "semester2": 27.43},
+                "2019": {"semester1": 27.53, "semester2": 26.55},
+                "2020": {"semester1": 26.64, "semester2": 26.8},
+                "2021": {"semester1": 26.86, "semester2": 27.38},
+                "2022": {"semester1": 26.56, "semester2": 26.8},
+                "2023": {"semester1": 26.03, "semester2": null},
+                "2024": {"semester1": 17.26, "semester2": 18.09}
+            }
+        },
+        {
+            "province": "PAPUA SELATAN",
+            "hc-key": "id-pa",
+            "data": {
+                "2017": {"semester1": null, "semester2": null},
+                "2018": {"semester1": null, "semester2": null},
+                "2019": {"semester1": null, "semester2": null},
+                "2020": {"semester1": null, "semester2": null},
+                "2021": {"semester1": null, "semester2": null},
+                "2022": {"semester1": null, "semester2": null},
+                "2023": {"semester1": null, "semester2": null},
+                "2024": {"semester1": 17.44, "semester2": 19.35}
+            }
+        },
+        {
+            "province": "PAPUA TENGAH",
+            "hc-key": "id-pa",
+            "data": {
+                "2017": {"semester1": null, "semester2": null},
+                "2018": {"semester1": null, "semester2": null},
+                "2019": {"semester1": null, "semester2": null},
+                "2020": {"semester1": null, "semester2": null},
+                "2021": {"semester1": null, "semester2": null},
+                "2022": {"semester1": null, "semester2": null},
+                "2023": {"semester1": null, "semester2": null},
+                "2024": {"semester1": 29.76, "semester2": 27.6}
+            }
+        },
+        {
+            "province": "PAPUA PEGUNUNGAN",
+            "hc-key": "id-pa",
+            "data": {
+                "2017": {"semester1": null, "semester2": null},
+                "2018": {"semester1": null, "semester2": null},
+                "2019": {"semester1": null, "semester2": null},
+                "2020": {"semester1": null, "semester2": null},
+                "2021": {"semester1": null, "semester2": null},
+                "2022": {"semester1": null, "semester2": null},
+                "2023": {"semester1": null, "semester2": null},
+                "2024": {"semester1": 32.97, "semester2": 29.66}
+            }
+        },
+        {
+            "province": "INDONESIA",
+            "hc-key": "id-id",
+            "data": {
+                "2017": {"semester1": 10.64, "semester2": 10.12},
+                "2018": {"semester1": 9.82, "semester2": 9.66},
+                "2019": {"semester1": 9.41, "semester2": 9.22},
+                "2020": {"semester1": 9.78, "semester2": 10.19},
+                "2021": {"semester1": 10.14, "semester2": 9.71},
+                "2022": {"semester1": 9.54, "semester2": 9.57},
+                "2023": {"semester1": 9.36, "semester2": null},
+                "2024": {"semester1": 9.03, "semester2": 8.57}
+            }
+        }
+    ]
+}

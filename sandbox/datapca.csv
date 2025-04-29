@@ -1,0 +1,116 @@
+Date,Region,Latitude,Longitude,Plastic_Type,Plastic_Weight_kg,Depth_meters
+01/01/2015 0:00,Arctic Ocean,-58.45962737,-169.6264556,Polyethylene Terephthalate (PET),41.93,73.09
+01/01/2015 1:00,Southern Ocean,49.44989207,77.31985156,Polyethylene (PE),403.38,71.21
+01/01/2015 2:00,Indian Ocean,80.42241101,130.332581,Polyethylene Terephthalate (PET),241.7,19.53
+01/01/2015 3:00,Southern Ocean,-71.92072478,58.00356276,Polyethylene Terephthalate (PET),482.76,69.72
+01/01/2015 4:00,Southern Ocean,-61.99374161,-169.0112823,Polyethylene Terephthalate (PET),58.75,58.14
+01/01/2015 5:00,Atlantic Ocean,82.80227831,128.8510374,Polyethylene (PE),66.73,85.01
+01/01/2015 6:00,Indian Ocean,-83.19884007,83.68700866,Polystyrene (PS),174.35,62.48
+01/01/2015 7:00,Indian Ocean,85.97382058,-43.75752751,Polyethylene (PE),103.46,14.63
+01/01/2015 8:00,Indian Ocean,-89.16399304,-61.69310701,Polypropylene (PP),348.33,31.85
+01/01/2015 9:00,Southern Ocean,67.26035802,-7.264734693,Polystyrene (PS),473.41,74.38
+01/01/2015 10:00,Arctic Ocean,-34.68146742,132.1566303,Polyethylene (PE),45.04,74
+01/01/2015 11:00,Indian Ocean,78.94599447,-89.25863333,Polypropylene (PP),121.19,22.27
+01/01/2015 12:00,Southern Ocean,-32.94984805,-143.653028,Polypropylene (PP),119.03,35.46
+01/01/2015 13:00,Atlantic Ocean,27.77513788,131.2690943,Polyvinyl Chloride (PVC),254.59,1.53
+01/01/2015 14:00,Arctic Ocean,-75.59413744,-170.5356544,Polyvinyl Chloride (PVC),226.07,33.17
+01/01/2015 15:00,Atlantic Ocean,-46.38063394,147.958928,Polyethylene Terephthalate (PET),363.46,2.63
+01/01/2015 16:00,Arctic Ocean,49.26228237,-69.93173005,Polystyrene (PS),366.34,87.29
+01/01/2015 17:00,Southern Ocean,5.163453662,2.960172608,Polyethylene (PE),286.42,66.66
+01/01/2015 18:00,Pacific Ocean,77.03443112,-132.3736111,Polyethylene Terephthalate (PET),295.55,96.91
+01/01/2015 19:00,Arctic Ocean,-12.8247465,144.811789,Polystyrene (PS),421.17,89.19
+01/01/2015 20:00,Atlantic Ocean,66.56622585,89.94104042,Polyvinyl Chloride (PVC),198.53,60.35
+01/01/2015 21:00,Southern Ocean,-9.188021254,152.6960112,Polyethylene (PE),6.27,50.29
+01/01/2015 22:00,Arctic Ocean,86.26469017,65.9624584,Polypropylene (PP),106.59,88.37
+01/01/2015 23:00,Pacific Ocean,82.77018865,-113.5102404,Polypropylene (PP),17.78,29.84
+02/01/2015 0:00,Pacific Ocean,-30.755393,-69.02387892,Polyethylene Terephthalate (PET),196.81,22.35
+02/01/2015 1:00,Indian Ocean,69.46626068,-4.734512963,Polyethylene Terephthalate (PET),178.98,41
+02/01/2015 2:00,Indian Ocean,62.57004736,38.61295393,Polyethylene (PE),49.41,5.32
+02/01/2015 3:00,Atlantic Ocean,-52.07752848,153.5253974,Polypropylene (PP),377.54,30.2
+02/01/2015 4:00,Arctic Ocean,22.37227214,-41.77747232,Polyethylene Terephthalate (PET),276.58,8.37
+02/01/2015 5:00,Arctic Ocean,-76.91718319,73.10592789,Polypropylene (PP),112.93,5.27
+02/01/2015 6:00,Indian Ocean,60.60792971,165.9631856,Polyvinyl Chloride (PVC),379.59,55.13
+02/01/2015 7:00,Arctic Ocean,-58.58174097,-125.1453372,Polyethylene Terephthalate (PET),334,70.82
+02/01/2015 8:00,Arctic Ocean,-77.25335375,130.575452,Polystyrene (PS),95.88,53.67
+02/01/2015 9:00,Pacific Ocean,-17.9605628,-28.54581466,Polyethylene Terephthalate (PET),491.45,7.06
+02/01/2015 10:00,Indian Ocean,13.84598495,83.67183933,Polyvinyl Chloride (PVC),88.8,39.5
+02/01/2015 11:00,Southern Ocean,63.88505254,-74.32619805,Polyethylene (PE),385.87,11.1
+02/01/2015 12:00,Indian Ocean,85.36365459,-59.76568142,Polypropylene (PP),484.15,65.01
+02/01/2015 13:00,Southern Ocean,-10.89134774,-170.232039,Polyethylene (PE),362.78,82.64
+02/01/2015 14:00,Pacific Ocean,-79.11955386,169.7054951,Polyethylene Terephthalate (PET),332.92,11.67
+02/01/2015 15:00,Atlantic Ocean,44.84080422,112.8429271,Polystyrene (PS),451.67,6.69
+02/01/2015 16:00,Arctic Ocean,11.73118612,-146.1895351,Polyethylene (PE),134.64,40.6
+02/01/2015 17:00,Pacific Ocean,-9.379557928,179.8231664,Polystyrene (PS),138.65,30.35
+02/01/2015 18:00,Arctic Ocean,-34.33160182,37.80885499,Polyethylene Terephthalate (PET),320.62,26.07
+02/01/2015 19:00,Atlantic Ocean,0.431735012,127.3423097,Polystyrene (PS),441.08,21.14
+02/01/2015 20:00,Atlantic Ocean,-29.0376712,-156.0021252,Polystyrene (PS),308.73,31.69
+02/01/2015 21:00,Pacific Ocean,46.26213619,-39.79757574,Polyvinyl Chloride (PVC),488.53,96.54
+02/01/2015 22:00,Atlantic Ocean,7.900865369,61.07440403,Polyethylene (PE),111.53,85.77
+02/01/2015 23:00,Southern Ocean,67.83259935,-141.6838613,Polyethylene Terephthalate (PET),412.96,60.14
+03/01/2015 0:00,Atlantic Ocean,7.837904637,-3.994978085,Polyvinyl Chloride (PVC),463.64,80.05
+03/01/2015 1:00,Arctic Ocean,-47.1127656,-20.63596516,Polystyrene (PS),213.56,1.47
+03/01/2015 2:00,Arctic Ocean,63.1965388,-102.2255192,Polyvinyl Chloride (PVC),481,11.15
+03/01/2015 3:00,Arctic Ocean,10.29942809,-71.90285909,Polyvinyl Chloride (PVC),101.15,29.25
+03/01/2015 4:00,Arctic Ocean,-52.76861313,168.1626076,Polystyrene (PS),476.42,64.39
+03/01/2015 5:00,Southern Ocean,22.23140579,-76.08654504,Polyethylene Terephthalate (PET),451.41,88.34
+03/01/2015 6:00,Indian Ocean,-25.61098231,-103.1665918,Polypropylene (PP),33.17,23.11
+03/01/2015 7:00,Pacific Ocean,61.99301021,13.03530158,Polyvinyl Chloride (PVC),260.71,13.92
+03/01/2015 8:00,Arctic Ocean,-8.406047044,61.54489227,Polyethylene (PE),264.47,84.79
+03/01/2015 9:00,Atlantic Ocean,40.75944446,81.03351999,Polystyrene (PS),28.58,40.91
+03/01/2015 10:00,Arctic Ocean,-72.80348263,91.52898642,Polypropylene (PP),19.86,69.95
+03/01/2015 11:00,Atlantic Ocean,-18.71561767,-166.7403031,Polyvinyl Chloride (PVC),2.65,54.8
+03/01/2015 12:00,Atlantic Ocean,86.98345857,-38.24625586,Polystyrene (PS),262.3,17.59
+03/01/2015 13:00,Arctic Ocean,55.52285211,98.62490872,Polystyrene (PS),231.96,70.06
+03/01/2015 14:00,Southern Ocean,-61.21065557,145.7467566,Polyvinyl Chloride (PVC),470.24,42.08
+03/01/2015 15:00,Atlantic Ocean,-40.00247109,36.7920444,Polyethylene (PE),171.22,28.77
+03/01/2015 16:00,Atlantic Ocean,-30.63315441,-161.1695327,Polystyrene (PS),329.15,90.27
+03/01/2015 17:00,Arctic Ocean,27.06580089,-37.20750989,Polystyrene (PS),3.88,0.6
+03/01/2015 18:00,Atlantic Ocean,46.25905671,-153.2782383,Polyvinyl Chloride (PVC),331.8,40.49
+03/01/2015 19:00,Atlantic Ocean,44.91478959,89.47363057,Polypropylene (PP),456.74,30.05
+03/01/2015 20:00,Arctic Ocean,1.777330135,-157.1380311,Polystyrene (PS),177.45,5.45
+03/01/2015 21:00,Arctic Ocean,55.94769681,-113.136816,Polystyrene (PS),157.1,8.04
+03/01/2015 22:00,Pacific Ocean,-11.3259451,-29.89496737,Polyvinyl Chloride (PVC),313.05,17.23
+03/01/2015 23:00,Southern Ocean,-67.70149825,-13.44658784,Polystyrene (PS),164.34,50.5
+04/01/2015 0:00,Southern Ocean,11.5995315,-33.66658789,Polyvinyl Chloride (PVC),201.27,28.26
+04/01/2015 1:00,Atlantic Ocean,81.41424923,-13.17720722,Polyethylene (PE),136.63,83.79
+04/01/2015 2:00,Southern Ocean,52.73885725,76.76609473,Polyvinyl Chloride (PVC),172.51,24
+04/01/2015 3:00,Atlantic Ocean,14.16611658,-47.06322374,Polypropylene (PP),339.74,72.02
+04/01/2015 4:00,Pacific Ocean,26.42501886,17.19016529,Polystyrene (PS),461.2,21.04
+04/01/2015 5:00,Arctic Ocean,77.50116487,-70.78706729,Polyethylene (PE),291.6,4.26
+04/01/2015 6:00,Arctic Ocean,-12.898297,-52.69410177,Polystyrene (PS),5.12,26.46
+04/01/2015 7:00,Arctic Ocean,-30.34905499,40.96762526,Polystyrene (PS),132.02,83.76
+04/01/2015 8:00,Southern Ocean,85.9034817,-3.421925411,Polyvinyl Chloride (PVC),476.12,8.23
+04/01/2015 9:00,Pacific Ocean,65.41976403,80.29306615,Polystyrene (PS),455.17,34.45
+04/01/2015 10:00,Southern Ocean,-31.85215477,21.7938917,Polyethylene (PE),57.91,0.8
+04/01/2015 11:00,Southern Ocean,-6.519492475,109.2866707,Polyethylene Terephthalate (PET),454.22,63.02
+04/01/2015 12:00,Pacific Ocean,-15.28593678,-20.37304332,Polystyrene (PS),482.27,94.28
+04/01/2015 13:00,Pacific Ocean,-63.16277784,-3.227896848,Polyvinyl Chloride (PVC),162.35,38.44
+04/01/2015 14:00,Pacific Ocean,82.40747829,61.1896856,Polypropylene (PP),350.53,57.69
+04/01/2015 15:00,Pacific Ocean,-17.22376238,-100.35218,Polystyrene (PS),280.04,45.23
+04/01/2015 16:00,Arctic Ocean,67.55923487,-41.0653667,Polyvinyl Chloride (PVC),168.59,97.33
+04/01/2015 17:00,Indian Ocean,-55.91587902,44.94284784,Polystyrene (PS),76.75,73.6
+04/01/2015 18:00,Indian Ocean,8.616745915,-169.6045431,Polyethylene Terephthalate (PET),183.52,4.42
+04/01/2015 19:00,Pacific Ocean,-85.68695068,-22.69028389,Polyethylene Terephthalate (PET),463.91,10.87
+04/01/2015 20:00,Indian Ocean,47.55968709,35.58597707,Polyethylene (PE),405.64,47.05
+04/01/2015 21:00,Indian Ocean,14.56450168,168.2551915,Polyethylene Terephthalate (PET),165.4,63.17
+04/01/2015 22:00,Pacific Ocean,22.60612502,135.7259622,Polyvinyl Chloride (PVC),273.88,29.04
+04/01/2015 23:00,Indian Ocean,-80.69024114,-78.93289694,Polyethylene Terephthalate (PET),203.04,67.46
+05/01/2015 0:00,Southern Ocean,-52.01310056,2.59563745,Polyvinyl Chloride (PVC),233.17,57.65
+05/01/2015 1:00,Atlantic Ocean,-76.62044298,-159.6908258,Polystyrene (PS),380.63,43.51
+05/01/2015 2:00,Atlantic Ocean,-37.99542316,-93.32841067,Polyethylene (PE),271.55,58.23
+05/01/2015 3:00,Pacific Ocean,22.93902138,98.9481125,Polyethylene (PE),90.6,91.65
+05/01/2015 4:00,Arctic Ocean,11.91347718,-135.6069556,Polyethylene Terephthalate (PET),134.59,24.32
+05/01/2015 5:00,Pacific Ocean,20.18696789,-87.23141106,Polypropylene (PP),283.94,79.12
+05/01/2015 6:00,Arctic Ocean,8.865228848,159.8553006,Polyethylene Terephthalate (PET),346.44,1.2
+05/01/2015 7:00,Atlantic Ocean,-40.85481678,116.5880882,Polypropylene (PP),254.11,8.48
+05/01/2015 8:00,Pacific Ocean,-45.98865048,101.4579766,Polyethylene Terephthalate (PET),310.14,94.97
+05/01/2015 9:00,Southern Ocean,-65.32925696,131.2406965,Polyvinyl Chloride (PVC),394.71,69.77
+05/01/2015 10:00,Indian Ocean,62.83275748,89.85804717,Polyvinyl Chloride (PVC),272.74,63.33
+05/01/2015 11:00,Arctic Ocean,20.96628454,-136.5889622,Polypropylene (PP),488.6,33.41
+05/01/2015 12:00,Indian Ocean,-56.42801775,5.962077535,Polyethylene (PE),117.86,18.43
+05/01/2015 13:00,Indian Ocean,-58.10231163,-20.07218851,Polypropylene (PP),459.85,37.99
+05/01/2015 14:00,Pacific Ocean,67.14640827,-67.98543182,Polystyrene (PS),123.91,59.84
+05/01/2015 15:00,Indian Ocean,43.69155548,120.2545475,Polyethylene (PE),265.87,63.44
+05/01/2015 16:00,Southern Ocean,28.69183438,-12.90988715,Polypropylene (PP),228.01,16.96
+05/01/2015 17:00,Indian Ocean,-16.76446064,-158.2928635,Polystyrene (PS),186.5,44.55
+05/01/2015 18:00,Pacific Ocean,-42.84439843,-81.01238986,Polystyrene (PS),481.37,56.68

@@ -1,0 +1,71 @@
+/* components/Header/Header.css */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .header-top {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+  
+  .logo-primary { color: var(--primary-color); }
+  .logo-secondary { color: var(--dark-color); }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+  }
+  
+  .cart-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    color: var(--dark-color);
+  }
+  
+  .cart-count {
+    background: var(--primary-color);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -12px;
+  }
+  
+  .auth-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--dark-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  
+  .auth-btn:hover {
+    background: #f3f4f6;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }

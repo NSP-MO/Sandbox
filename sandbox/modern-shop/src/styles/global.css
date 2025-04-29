@@ -1,0 +1,31 @@
+:root {
+    --primary: #42b549;
+    --primary-dark: #3ba246;
+    --background: #ffffff;
+    --foreground: #2d333a;
+    --border: #e5e7eb;
+    --gray: #8a8a8a;
+    --dark: #2d333a;
+    --radius: 8px;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  }
+  
+  .dark {
+    --background: #1a1a1a;
+    --foreground: #f3f4f6;
+    --border: #374151;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  

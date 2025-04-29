@@ -1,0 +1,208 @@
+{
+    "povertyData": [
+        {
+            "province": "ACEH",
+            "hc-key": "id-ac",
+            "semester1": 14.23,
+            "semester2": 12.64
+        },
+        {
+            "province": "SUMATERA UTARA",
+            "hc-key": "id-su",
+            "semester1": 7.99,
+            "semester2": 7.19
+        },
+        {
+            "province": "SUMATERA BARAT",
+            "hc-key": "id-sb",
+            "semester1": 5.97,
+            "semester2": 5.42
+        },
+        {
+            "province": "RIAU",
+            "hc-key": "id-ri",
+            "semester1": 6.67,
+            "semester2": 6.36
+        },
+        {
+            "province": "JAMBI",
+            "hc-key": "id-ja",
+            "semester1": 7.1,
+            "semester2": 7.26
+        },
+        {
+            "province": "SUMATERA SELATAN",
+            "hc-key": "id-sl",
+            "semester1": 10.97,
+            "semester2": 10.51
+        },
+        {
+            "province": "BENGKULU",
+            "hc-key": "id-be",
+            "semester1": 13.56,
+            "semester2": 12.52
+        },
+        {
+            "province": "LAMPUNG",
+            "hc-key": "id-1024",
+            "semester1": 10.69,
+            "semester2": 10.62
+        },
+        {
+            "province": "KEP. BANGKA BELITUNG",
+            "hc-key": "id-bb",
+            "semester1": 4.55,
+            "semester2": 5.08
+        },
+        {
+            "province": "KEP. RIAU",
+            "hc-key": "id-kr",
+            "semester1": 5.37,
+            "semester2": 4.78
+        },
+        {
+            "province": "DKI JAKARTA",
+            "hc-key": "id-jk",
+            "semester1": 4.3,
+            "semester2": 4.14
+        },
+        {
+            "province": "JAWA BARAT",
+            "hc-key": "id-jr",
+            "semester1": 7.46,
+            "semester2": 7.08
+        },
+        {
+            "province": "JAWA TENGAH",
+            "hc-key": "id-jt",
+            "semester1": 10.47,
+            "semester2": 9.58
+        },
+        {
+            "province": "DI YOGYAKARTA",
+            "hc-key": "id-yo",
+            "semester1": 10.83,
+            "semester2": 10.4
+        },
+        {
+            "province": "JAWA TIMUR",
+            "hc-key": "id-ji",
+            "semester1": 9.79,
+            "semester2": 9.56
+        },
+        {
+            "province": "BANTEN",
+            "hc-key": "id-bt",
+            "semester1": 5.84,
+            "semester2": 5.7
+        },
+        {
+            "province": "BALI",
+            "hc-key": "id-ba",
+            "semester1": 4,
+            "semester2": 3.8
+        },
+        {
+            "province": "NUSA TENGGARA BARAT",
+            "hc-key": "id-nb",
+            "semester1": 12.91,
+            "semester2": 11.91
+        },
+        {
+            "province": "NUSA TENGGARA TIMUR",
+            "hc-key": "id-nt",
+            "semester1": 19.48,
+            "semester2": 19.02
+        },
+        {
+            "province": "KALIMANTAN BARAT",
+            "hc-key": "id-kb",
+            "semester1": 6.32,
+            "semester2": 6.25
+        },
+        {
+            "province": "KALIMANTAN TENGAH",
+            "hc-key": "id-kt",
+            "semester1": 5.17,
+            "semester2": 5.26
+        },
+        {
+            "province": "KALIMANTAN SELATAN",
+            "hc-key": "id-ks",
+            "semester1": 4.11,
+            "semester2": 4.02
+        },
+        {
+            "province": "KALIMANTAN TIMUR",
+            "hc-key": "id-ki",
+            "semester1": 5.78,
+            "semester2": 5.51
+        },
+        {
+            "province": "KALIMANTAN UTARA",
+            "hc-key": "id-ku",
+            "semester1": 6.32,
+            "semester2": 5.38
+        },
+        {
+            "province": "SULAWESI UTARA",
+            "hc-key": "id-sw",
+            "semester1": 7.25,
+            "semester2": 6.7
+        },
+        {
+            "province": "SULAWESI BARAT",
+            "hc-key": "id-sr",
+            "semester1": 11.21,
+            "semester2": 10.71
+        },
+        {
+            "province": "SULAWESI TENGAH",
+            "hc-key": "id-st",
+            "semester1": 11.77,
+            "semester2": 11.04
+        },
+        {
+            "province": "SULAWESI SELATAN",
+            "hc-key": "id-se",
+            "semester1": 8.06,
+            "semester2": 7.77
+        },
+        {
+            "province": "SULAWESI TENGGARA",
+            "hc-key": "id-sg",
+            "semester1": 11.21,
+            "semester2": 10.63
+        },
+        {
+            "province": "GORONTALO",
+            "hc-key": "id-go",
+            "semester1": 14.57,
+            "semester2": 13.87
+        },
+        {
+            "province": "MALUKU",
+            "hc-key": "id-ma",
+            "semester1": 16.05,
+            "semester2": 15.78
+        },
+        {
+            "province": "MALUKU UTARA",
+            "hc-key": "id-la",
+            "semester1": 6.32,
+            "semester2": 6.03
+        },
+        {
+            "province": "PAPUA BARAT",
+            "hc-key": "id-ib",
+            "semester1": 21.66,
+            "semester2": 21.09
+        },
+        {
+            "province": "PAPUA",
+            "hc-key": "id-pa",
+            "semester1": 17.26,
+            "semester2": 18.09
+        }
+    ]
+}

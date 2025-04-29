@@ -1,133 +1,120 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <title>Peta Kemiskinan Indonesia 2024</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    body { margin: 0; padding: 0; }
-    #map { width: 100%; height: 100vh; }
-    .info, .legend {
-      background: rgba(255,255,255,0.9);
-      padding: 10px;
-      border-radius: 5px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    }
-    .legend i { 
-      width: 20px;
-      height: 20px;
-      display: inline-block;
-      margin-right: 5px;
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>Persentase Kemiskinan Indonesia 2024</title>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #222;
+            color: #fff;
+        }
+        #container {
+            width: 100vw;
+            height: calc(100vh - 40px);
+            min-width: 0;
+            min-height: 0;
+        }
+        .toggle-container {
+            padding: 10px;
+            text-align: center;
+            background: #333;
+        }
+    </style>
 </head>
 <body>
-  <div id="map"></div>
+    <div class="toggle-container">
+        <label>Pilih Semester: </label>
+        <select id="semesterSelector">
+            <option value="semester1">Semester 1 (Maret 2024)</option>
+            <option value="semester2">Semester 2 (September 2024)</option>
+        </select>
+    </div>
+    <div id="container"></div>
 
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
-  <script>
-    const map = L.map('map').setView([-2.5, 118], 5);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    <script>
+        let chart;
+        
+        async function initChart(semester) {
+            // Load data dari file JSON
+            const response = await fetch('data.json');
+            const data = await response.json();
+            
+            const seriesData = data.povertyData.map(prov => ({
+                'hc-key': prov['hc-key'],
+                value: prov[semester]
+            }));
 
-    // Fungsi pewarnaan yang diperbaiki
-    const getColor = (value, max) => {
-      if(value === 0 || !value) return '#ffffff';
-      const intensity = (value / max) * 200;
-      return `rgb(${255 - intensity}, ${255 - intensity}, ${255 - intensity})`;
-    };
-
-    // Kontrol informasi
-    const infoControl = L.control();
-    infoControl.onAdd = () => {
-      const div = L.DomUtil.create('div', 'info');
-      div.innerHTML = '<h4>Persentase Kemiskinan 2024</h4>Arahkan ke provinsi';
-      return div;
-    };
-    infoControl.addTo(map);
-
-    // Memuat data
-    Promise.all([
-      fetch('https://raw.githubusercontent.com/azharimm/indonesia-geojson/master/indonesia-province.geojson')
-        .then(r => r.json()),
-      
-      new Promise((resolve) => {
-        Papa.parse('Persentase Penduduk Miskin (P0) Menurut Provinsi dan Daerah, 2024.csv', {
-          download: true,
-          header: false,
-          skipEmptyLines: true,
-          complete: (results) => {
-            const data = {};
-            // Ambil data mulai baris 5 (indeks 4)
-            results.data.slice(4).forEach(row => {
-              const provinsi = row[0].trim();
-              // Kolom 8 adalah Tahunan Jumlah (indeks 8)
-              const nilai = parseFloat(row[8]) || 0;
-              data[provinsi] = nilai;
-            });
-            resolve(data);
-          }
-        });
-      })
-    ]).then(([geojson, csvData]) => {
-      // Perbaikan nama provinsi yang tidak sesuai
-      const provinceAliases = {
-        'DKI JAKARTA': 'Jakarta Raya',
-        'KEP. BANGKA BELITUNG': 'Bangka Belitung',
-        'KEP. RIAU': 'Kepulauan Riau',
-        'DI YOGYAKARTA': 'Yogyakarta'
-      };
-
-      const values = Object.values(csvData).filter(v => v > 0);
-      const maxValue = Math.max(...values);
-
-      // Styling GeoJSON
-      L.geoJson(geojson, {
-        style: (feature) => {
-          const namaProvinsi = provinceAliases[feature.properties.NAME_1] || feature.properties.NAME_1;
-          const nilai = csvData[namaProvinsi] || 0;
-          return {
-            fillColor: getColor(nilai, maxValue),
-            weight: 1,
-            color: 'white',
-            fillOpacity: 0.8
-          };
-        },
-        onEachFeature: (feature, layer) => {
-          layer.on({
-            mouseover: (e) => {
-              const namaProvinsi = provinceAliases[feature.properties.NAME_1] || feature.properties.NAME_1;
-              e.target.setStyle({ weight: 3 });
-              infoControl._div.innerHTML = `<b>${feature.properties.NAME_1}</b><br>${csvData[namaProvinsi] || 'N/A'}%`;
-            },
-            mouseout: (e) => {
-              geojson.resetStyle(e.target);
-              infoControl._div.innerHTML = '<h4>Persentase Kemiskinan 2024</h4>Arahkan ke provinsi';
+            if (!chart) {
+                chart = Highcharts.mapChart('container', getChartConfig(seriesData));
+            } else {
+                chart.update({
+                    series: [{
+                        data: seriesData
+                    }]
+                });
             }
-          });
         }
-      }).addTo(map);
 
-      // Legenda
-      const legend = L.control({position: 'bottomright'});
-      legend.onAdd = () => {
-        const div = L.DomUtil.create('div', 'legend');
-        div.innerHTML += '<h4>Skala Kemiskinan (%)</h4>';
-        const steps = [0, 10, 20, 30, 40];
-        steps.forEach((val, i) => {
-          const next = steps[i+1] || maxValue.toFixed(1);
-          div.innerHTML += `
-            <div style="display: flex; align-items: center; margin: 2px 0;">
-              <i style="background:${getColor(val, maxValue)}; width:20px; height:20px;"></i>
-              <span style="margin-left:5px;">${val} - ${next}</span>
-            </div>
-          `;
+        function getChartConfig(data) {
+            return {
+                chart: {
+                    map: 'countries/id/id-all',
+                    backgroundColor: '#222'
+                },
+                title: {
+                    text: 'Persentase Penduduk Miskin Indonesia 2024',
+                    style: { fontSize: '18px', color: '#fff' }
+                },
+                colorAxis: {
+                    min: 0,
+                    max: 30,
+                    stops: [[0, '#90EE90'], [0.5, '#FFD700'], [1, '#FF4500']]
+                },
+                tooltip: {
+                    backgroundColor: '#333',
+                    style: { color: '#fff' },
+                    headerFormat: '<span style="font-size:14px">{point.key}</span><br/>',
+                    pointFormat: 'Persentase: <b>{point.value}%</b>'
+                },
+                series: [{
+                    data: data,
+                    name: 'Persentase Kemiskinan',
+                    states: { hover: { color: '#BADA55' } },
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.name}',
+                        style: { color: '#fff', textOutline: '1px #000' }
+                    }
+                }],
+                mapNavigation: {
+                    enabled: true,
+                    buttonOptions: { verticalAlign: 'bottom' }
+                },
+                legend: {
+                    title: {
+                        text: 'Skala Persentase (%)',
+                        style: { fontWeight: 'bold', color: '#fff' }
+                    },
+                    align: 'right',
+                    verticalAlign: 'middle',
+                    backgroundColor: '#222',
+                    itemStyle: { color: '#fff' }
+                }
+            };
+        }
+
+        document.getElementById('semesterSelector').addEventListener('change', function(e) {
+            initChart(e.target.value);
         });
-        return div;
-      };
-      legend.addTo(map);
-    });
-  </script>
+
+        // Inisialisasi awal
+        initChart('semester1');
+    </script>
 </body>
 </html>
