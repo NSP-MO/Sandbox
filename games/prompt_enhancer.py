@@ -1,206 +1,234 @@
-import pyperclip
-import time
-import threading
-from pynput import keyboard
-from pynput.keyboard import Key, Controller as KeyboardController
+import tkinter as tk
+from tkinter import ttk, scrolledtext, messagebox
+import keyboard
 import google.generativeai as genai
+import threading
 import os
-import sys
+import pyperclip # For clipboard access
 
 # --- Configuration ---
-API_KEY = "AIzaSyB09PBV7PEYIJ7sYnxvnJB3rq5RmM1G6xY" # User's provided key
-if not API_KEY:
-    print("DEBUG: GEMINI_API_KEY environment variable not set or API_KEY variable is empty.")
-    API_KEY = input("Please enter your Gemini API Key: ")
+# Hotkey to trigger enhancement of clipboard text
+HOTKEY = "ctrl+shift+h" # You can change this
 
-if not API_KEY:
-    print("ERROR: No API Key provided. Exiting.")
-    sys.exit()
+# --- Setup Gemini ---
+GOOGLE_API_KEY = "AIzaSyB09PBV7PEYIJ7sYnxvnJB3rq5RmM1G6xY"
+gemini_model = None
 
-try:
-    genai.configure(api_key=API_KEY)
-    print("DEBUG: Gemini API Key configured.")
-except Exception as e:
-    print(f"ERROR: Failed to configure Gemini API: {e}")
-    sys.exit()
+# Allow user to specify model via environment variable, with a fallback to a known working model.
+# To use 'gemini-2.0-flash', set environment variable: GEMINI_MODEL_NAME=gemini-2.0-flash
+MODEL_NAME_TO_USE = os.environ.get("GEMINI_MODEL_NAME", 'gemini-2.0-flash')
 
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
-print("DEBUG: Gemini model loaded.")
+if GOOGLE_API_KEY:
+    try:
+        genai.configure(api_key=GOOGLE_API_KEY)
+        print(f"Attempting to initialize Gemini model with '{MODEL_NAME_TO_USE}'.")
+        # WARNING: If GEMINI_MODEL_NAME is set to a non-existent model (e.g., 'gemini-2.0-flash'),
+        # this line will likely raise an error.
+        gemini_model = genai.GenerativeModel(MODEL_NAME_TO_USE)
+        print(f"Gemini model '{MODEL_NAME_TO_USE}' initialized successfully.")
+    except Exception as e:
+        print(f"Error configuring Gemini with model '{MODEL_NAME_TO_USE}': {e}")
+        gemini_model = None # Ensure model is None if initialization fails
+else:
+    print("Warning: GEMINI_API_KEY environment variable not set. Gemini functionality will be disabled.")
 
-# --- Hotkey Definitions ---
-MODIFIER_CTRL_KEYS = {keyboard.Key.ctrl_l, keyboard.Key.ctrl_r}
-MODIFIER_SHIFT_KEYS = {keyboard.Key.shift_l, keyboard.Key.shift_r}
-EXPECTED_CTRL_SHIFT_Q_KEYCODE = keyboard.KeyCode.from_char('\x11')
-
-active_modifiers_pressed = set()
-hotkey_action_in_progress = False
-
-keyboard_controller = KeyboardController()
+# --- Global Variables for GUI Elements ---
+root = None
+status_label = None
+original_text_display = None
+enhanced_text_display = None
 
 def enhance_text_with_gemini(text_to_enhance):
-    global hotkey_action_in_progress # Ensure this is managed correctly
-    print(f"DEBUG: enhance_text_with_gemini called with text: '{text_to_enhance[:50]}...'")
-    if not text_to_enhance or not text_to_enhance.strip():
-        print("DEBUG: No text to enhance.")
-        # hotkey_action_in_progress should be reset by the caller or at the end of the action sequence
-        return None 
+    """Sends text to Gemini for enhancement and returns the result."""
+    if not gemini_model:
+        return "Error: Gemini model not initialized (API key issue or model configuration error)."
     try:
-        prompt = f"You are an AI prompt enhancer. Your task is to refine the user's input to make it clearer, more detailed, and more effective for an AI assistant. Return only the enhanced prompt itself, without any conversational filler, preamble, or explanation like 'Here's the enhanced prompt:'.\n\nOriginal prompt: \"{text_to_enhance}\""
-        print(f"DEBUG: Sending prompt to Gemini: \"{prompt[:100]}...\"")
-        response = model.generate_content(prompt)
-        
-        if response and response.text:
-            enhanced = response.text.strip()
-            print(f"DEBUG: Gemini response received: '{enhanced[:100]}...'")
-            return enhanced
-        else:
-            print(f"DEBUG: Gemini response was empty or invalid. Response: {response}")
-            if hasattr(response, 'prompt_feedback') and response.prompt_feedback:
-                print(f"DEBUG: Prompt Feedback: {response.prompt_feedback}")
-            return None
+        # This prompt is geared towards enhancing prompts.
+        # You might want to change it if you're processing general text.
+        prompt = (
+            f"You are an expert prompt engineer. Enhance the following text to be a more effective, clear, "
+            f"and concise prompt. Focus on improving its ability to elicit the desired output from an AI. "
+            f"Return only the enhanced prompt text, without any preamble or explanation. "
+            f"Return the enhanced prompt without any additional text or formatting."
+            f"Original text: \"{text_to_enhance}\""
+        )
+        response = gemini_model.generate_content(prompt)
+        return response.text.strip()
     except Exception as e:
-        print(f"ERROR: Exception during Gemini API call: {e}")
-        if hasattr(e, 'response') and e.response and hasattr(e.response, 'text'):
-            print(f"ERROR DETAILS: {e.response.text}")
-        return None
-    # hotkey_action_in_progress will be reset in paste_enhanced_text or on_hotkey_actions error paths
+        print(f"Error during Gemini API call: {str(e)}")
+        return f"Error: Could not enhance text. ({type(e).__name__}: {str(e)})"
 
-def get_highlighted_text():
-    print("DEBUG: get_highlighted_text called.")
-    original_clipboard_content = pyperclip.paste()
-    print(f"DEBUG: Original clipboard content: '{original_clipboard_content[:50]}...'")
-    pyperclip.copy("") # Clear clipboard
+def update_gui_with_enhancement(original_text, enhanced_text):
+    """Updates the GUI with original and enhanced text, and copies enhanced to clipboard."""
+    global original_text_display, enhanced_text_display, status_label
+    
+    if original_text_display:
+        original_text_display.config(state=tk.NORMAL)
+        original_text_display.delete(1.0, tk.END)
+        original_text_display.insert(tk.END, original_text)
+        original_text_display.config(state=tk.DISABLED)
 
-    print("DEBUG: Simulating Ctrl+C.")
-    with keyboard_controller.pressed(Key.ctrl):
-        keyboard_controller.press('c')
-        keyboard_controller.release('c')
-    time.sleep(0.25)
+    if enhanced_text_display:
+        enhanced_text_display.config(state=tk.NORMAL)
+        enhanced_text_display.delete(1.0, tk.END)
+        enhanced_text_display.insert(tk.END, enhanced_text)
+        enhanced_text_display.config(state=tk.DISABLED)
 
-    highlighted_text = pyperclip.paste()
-    print(f"DEBUG: Text copied from clipboard: '{highlighted_text[:50]}...'")
-
-    if not highlighted_text:
-        print("DEBUG: No new text copied. Restoring original clipboard.")
-        pyperclip.copy(original_clipboard_content)
-        return None
-    return highlighted_text
-
-def paste_enhanced_text(enhanced_text):
-    # This function is the end of a successful path, so reset hotkey_action_in_progress here
-    global hotkey_action_in_progress
-    print(f"DEBUG: paste_enhanced_text called with text: '{enhanced_text[:50]}...'")
-    if enhanced_text:
-        pyperclip.copy(enhanced_text)
-        print("INFO: Enhanced text copied to clipboard. Attempting to paste...")
-        time.sleep(0.1)
-
-        print("DEBUG: Simulating Ctrl+V.")
-        with keyboard_controller.pressed(Key.ctrl):
-            keyboard_controller.press('v')
-            keyboard_controller.release('v')
-        print("INFO: Attempted to paste enhanced text. If it didn't appear, try manually pasting (Ctrl+V).")
+    if "Error:" in enhanced_text:
+        if status_label:
+            status_label.config(text=f"Enhancement failed. See details in display areas or console.")
     else:
-        print("DEBUG: No enhanced text to paste.")
-    hotkey_action_in_progress = False # Reset here
+        try:
+            pyperclip.copy(enhanced_text)
+            if status_label:
+                status_label.config(text=f"Enhanced text copied to clipboard! Press {HOTKEY} for next.")
+        except pyperclip.PyperclipException as e:
+            print(f"Error copying to clipboard: {e}")
+            if status_label:
+                status_label.config(text="Enhanced text displayed. Failed to copy to clipboard.")
+            messagebox.showwarning("Clipboard Error", f"Could not copy enhanced text to clipboard: {e}\nOn Linux, ensure xclip or xsel is installed.")
 
-def on_hotkey_actions():
-    global hotkey_action_in_progress # Make sure it's globally recognized
-    if hotkey_action_in_progress: # Check if already set by a previous call
-        print("DEBUG: Hotkey action already in progress (on_hotkey_actions entry). Skipping.")
-        return # Should not happen if on_press logic is correct, but as safeguard
-    
-    hotkey_action_in_progress = True # Set flag at the beginning of the action
-    print("INFO: Hotkey activated! Processing...")
-    
+
+def process_clipboard_enhancement_request():
+    """Handles hotkey: reads from clipboard, calls Gemini, updates GUI & clipboard."""
+    global status_label, root, original_text_display, enhanced_text_display
+
+    if not gemini_model:
+        messagebox.showerror("Gemini Not Ready", "Gemini model is not initialized. Please check your GEMINI_API_KEY, ensure the model name is configured correctly (e.g., via GEMINI_MODEL_NAME environment variable), and restart.")
+        if status_label:
+            status_label.config(text="Gemini not ready (API key/model issue).", foreground="red")
+        return
+
     try:
-        highlighted_text = get_highlighted_text()
-
-        if highlighted_text:
-            enhanced_text = enhance_text_with_gemini(highlighted_text)
-            if enhanced_text:
-                paste_enhanced_text(enhanced_text) # This will reset hotkey_action_in_progress
-                return # Successful completion
-            else:
-                print("INFO: Failed to enhance text or text was empty.")
-        else:
-            print("INFO: Could not retrieve highlighted text.")
+        clipboard_text = pyperclip.paste()
+        if not clipboard_text or not clipboard_text.strip():
+            if status_label: status_label.config(text="Clipboard is empty or contains only whitespace.")
+            if original_text_display:
+                original_text_display.config(state=tk.NORMAL); original_text_display.delete(1.0, tk.END);
+                original_text_display.insert(tk.END, "-- Clipboard was empty --"); original_text_display.config(state=tk.DISABLED)
+            if enhanced_text_display:
+                enhanced_text_display.config(state=tk.NORMAL); enhanced_text_display.delete(1.0, tk.END); enhanced_text_display.config(state=tk.DISABLED)
+            return
+    except pyperclip.PyperclipException as e:
+        print(f"Error reading from clipboard: {e}")
+        if status_label: status_label.config(text="Error reading from clipboard. Is it accessible?")
+        messagebox.showerror("Clipboard Error", f"Could not read from clipboard: {e}\nOn Linux, you might need to install xclip or xsel (e.g., sudo apt-get install xclip).")
+        return
     except Exception as e:
-        print(f"ERROR in on_hotkey_actions: {e}")
-    finally:
-        # Ensure the flag is reset if any path above didn't (e.g., an error before paste_enhanced_text)
-        # or if paste_enhanced_text wasn't called due to no text.
-        if highlighted_text and enhanced_text: # paste_enhanced_text would have reset it
-            pass
-        else: # Reset if not reset by paste_enhanced_text
-            hotkey_action_in_progress = False
-            print("DEBUG: hotkey_action_in_progress reset in on_hotkey_actions finally block.")
+        print(f"Unexpected error reading from clipboard: {e}")
+        if status_label: status_label.config(text="Unexpected error reading from clipboard.")
+        messagebox.showerror("Clipboard Error", f"An unexpected error occurred while reading from clipboard: {e}")
+        return
 
-
-def on_press(key):
-    try:
-        print(f"DEBUG (Press): Key='{key}', Type='{type(key)}', VK='{getattr(key, "vk", "N/A")}', Current Modifiers='{active_modifiers_pressed}'")
-
-        if key in MODIFIER_CTRL_KEYS or key in MODIFIER_SHIFT_KEYS:
-            active_modifiers_pressed.add(key)
-            print(f"DEBUG: Modifier '{key}' ADDED. Active Modifiers: '{active_modifiers_pressed}'")
-            return True 
-
-        ctrl_is_active = any(k_ctrl in active_modifiers_pressed for k_ctrl in MODIFIER_CTRL_KEYS)
-        shift_is_active = any(k_shift in active_modifiers_pressed for k_shift in MODIFIER_SHIFT_KEYS)
-
-        if ctrl_is_active and shift_is_active:
-            if key == EXPECTED_CTRL_SHIFT_Q_KEYCODE:
-                global hotkey_action_in_progress # Access global flag
-                if hotkey_action_in_progress:
-                    print("DEBUG: Hotkey combination detected, but action already in progress. Suppressing.")
-                    return False # Suppress event, but don't start new thread
-
-                print(f"SUCCESS: Hotkey (Ctrl+Shift + Q -> detected as \\x11) triggered with Key='{key}'!")
-                print(f"DEBUG: Current active modifiers at trigger: {active_modifiers_pressed}")
-                
-                # Make the action thread NON-DAEMON
-                action_thread = threading.Thread(target=on_hotkey_actions, daemon=False)
-                action_thread.start()
-                return False 
-            else:
-                print(f"DEBUG: Ctrl+Shift active, but Key='{key}' (VK='{getattr(key, "vk", "N/A")}') is not the expected trigger ('\\x11').")
-        
-        return True
-    except Exception as e:
-        print(f"ERROR in on_press callback: {e}")
-        return True # Default to allowing propagation if our logic errors
-
-def on_release(key):
-    try:
-        print(f"DEBUG (Release): Key='{key}', Type='{type(key)}', VK='{getattr(key, "vk", "N/A")}'")
-        if key in active_modifiers_pressed:
-            active_modifiers_pressed.discard(key)
-            print(f"DEBUG: Modifier '{key}' REMOVED. Active Modifiers: '{active_modifiers_pressed}'")
-    except Exception as e:
-        print(f"ERROR in on_release callback: {e}")
-
-def start_hotkey_listener():
-    hotkey_display_string = f"Ctrl + Shift + Q"
-    print(f"INFO: Hotkey listener started. Press {hotkey_display_string} to enhance highlighted text.")
-    # ... (other info prints) ...
+    if status_label: status_label.config(text="Enhancing text from clipboard with Gemini...")
     
-    with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-        print("DEBUG: keyboard.Listener object created.")
-        listener.join() # This call blocks until the listener stops.
-    print("DEBUG: keyboard.Listener finished or stopped.") # This will print if listener.join() unblocks
+    # Display original text immediately
+    if original_text_display:
+        original_text_display.config(state=tk.NORMAL); original_text_display.delete(1.0, tk.END)
+        original_text_display.insert(tk.END, clipboard_text); original_text_display.config(state=tk.DISABLED)
+    if enhanced_text_display: # Clear previous enhanced text
+        enhanced_text_display.config(state=tk.NORMAL); enhanced_text_display.delete(1.0, tk.END); enhanced_text_display.config(state=tk.DISABLED)
+
+    def threaded_gemini_call_and_update():
+        enhanced_text_result = enhance_text_with_gemini(clipboard_text)
+        if root: # Check if GUI is still alive
+             root.after(0, lambda: update_gui_with_enhancement(clipboard_text, enhanced_text_result))
+        elif not root:
+            print("GUI closed before enhancement could be applied.")
+
+    threading.Thread(target=threaded_gemini_call_and_update, daemon=True).start()
+
+
+def setup_gui():
+    global root, status_label, original_text_display, enhanced_text_display
+
+    root = tk.Tk()
+    root.title(f"Clipboard Prompt Enhancer ({MODEL_NAME_TO_USE})")
+    root.geometry("750x600")
+
+    main_frame = ttk.Frame(root, padding="10")
+    main_frame.pack(fill=tk.BOTH, expand=True)
+
+    instructions = (
+        f"1. Highlight text in any application (e.g., browser).\n"
+        f"2. Copy the highlighted text to clipboard (e.g., Ctrl+C).\n"
+        f"3. Press the global hotkey: {HOTKEY}\n"
+        f"The enhanced text will appear below and be copied to your clipboard."
+    )
+    ttk.Label(main_frame, text=instructions, justify=tk.LEFT).pack(pady=(0,10), anchor='w')
+
+    ttk.Label(main_frame, text="Original Text (from Clipboard):").pack(pady=(5,0), anchor='w')
+    original_text_display = scrolledtext.ScrolledText(main_frame, wrap=tk.WORD, height=10, font=("Arial", 10), state=tk.DISABLED, relief=tk.SOLID, borderwidth=1)
+    original_text_display.pack(fill=tk.BOTH, expand=True, pady=(0,5))
+
+    ttk.Label(main_frame, text="Enhanced Text (copied to clipboard):").pack(pady=(5,0), anchor='w')
+    enhanced_text_display = scrolledtext.ScrolledText(main_frame, wrap=tk.WORD, height=10, font=("Arial", 10), state=tk.DISABLED, background="#f0f0f0", relief=tk.SOLID, borderwidth=1)
+    enhanced_text_display.pack(fill=tk.BOTH, expand=True, pady=(0,5))
+
+    status_text_default = f"Waiting for hotkey ({HOTKEY})..."
+    status_text = status_text_default
+    
+    if not GOOGLE_API_KEY:
+        status_text = "CRITICAL: GEMINI_API_KEY env var not set. Functionality disabled."
+    elif not gemini_model: # Check if model initialization failed
+        status_text = f"ERROR: Gemini model ('{MODEL_NAME_TO_USE}') failed to initialize. Check API key/model name. Disabled."
+
+    if not GOOGLE_API_KEY or not gemini_model:
+        messagebox.showwarning("API Key/Model Initialization Issue",
+                               f"Gemini functionality is likely disabled.\nReason: {status_text}\n"
+                               f"Ensure GEMINI_API_KEY is set. If GEMINI_MODEL_NAME is set, ensure '{MODEL_NAME_TO_USE}' is a valid model name.\n"
+                               "Restart the application after correcting.")
+
+    status_label = ttk.Label(main_frame, text=status_text)
+    status_label.pack(pady=(10,0), anchor='w')
+    if "ERROR:" in status_text.upper() or "CRITICAL:" in status_text.upper():
+        status_label.config(foreground="red")
+
+    # Attempt to bring window to front on Mac when launched, helps with initial focus for some operations.
+    if os.name == 'posix' and 'darwin' in os.uname().sysname.lower():
+        try:
+            root.tk.call('::tk::unsupported::MacWindowStyle', 'style', root._w, 'metal', 'closable')
+            root.deiconify()
+            root.lift()
+            root.focus_force()
+        except tk.TclError:
+            pass # Ignore if the call fails (e.g. on non-Mac or older Tk)
+
+
+    return root
+
+def main():
+    global root
+
+    gui_root = setup_gui()
+    root = gui_root # Assign to global root for thread access (already done in setup_gui)
+
+    try:
+        keyboard.add_hotkey(HOTKEY, process_clipboard_enhancement_request, suppress=False)
+        print(f"Global hotkey '{HOTKEY}' registered. Copy text and press it to enhance.")
+        if status_label and "ERROR:" not in status_label.cget("text").upper() and "CRITICAL:" not in status_label.cget("text").upper():
+             # Only update status if no critical errors are already shown
+            status_label.config(text=f"Hotkey '{HOTKEY}' active. Copy text, then press hotkey.")
+    except Exception as e:
+        error_msg_hotkey = f"Failed to register global hotkey '{HOTKEY}'. Error: {e}"
+        print(error_msg_hotkey)
+        if status_label:
+            status_label.config(text=f"CRITICAL ERROR: Failed to register hotkey {HOTKEY}. Try running as admin/root?", foreground="red")
+        messagebox.showerror("Hotkey Registration Error",
+                             f"{error_msg_hotkey}\n\nThis might be due to system permissions (try running as administrator/root if on Windows, or check Wayland/X11 permissions on Linux) or another application using this hotkey.\nThe application will run, but the hotkey enhancement feature will not work.")
+
+    def on_closing():
+        print("Closing application...")
+        try:
+            keyboard.unhook_all_hotkeys() # More robust than removing a single one if multiples were added by mistake
+            print(f"All hotkeys unregistered.")
+        except Exception as e_unhook:
+            print(f"Could not unregister hotkeys: {e_unhook}")
+        if gui_root:
+            gui_root.destroy()
+
+    gui_root.protocol("WM_DELETE_WINDOW", on_closing)
+    gui_root.mainloop()
 
 if __name__ == "__main__":
-    print("DEBUG: Script starting...")
-    if not API_KEY:
-        print("CRITICAL ERROR: API Key is missing. Exiting.")
-        sys.exit()
-
-    try:
-        start_hotkey_listener()
-    except KeyboardInterrupt:
-        print("INFO: Script interrupted by user (Ctrl+C).")
-    except Exception as e:
-        print(f"FATAL ERROR in main execution: {e}")
-    finally:
-        print("DEBUG: Script __main__ is finishing.")
+    main()
